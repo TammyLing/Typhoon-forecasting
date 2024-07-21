@@ -1,0 +1,2843 @@
+/var/spool/slurm/d/job124511/slurm_script: line 6: /vol/cuda/11.8/setup.sh: No such file or directory
+Wed Jul 17 16:27:29 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.171.04             Driver Version: 535.171.04   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla T4                       Off | 00000000:00:06.0 Off |                    0 |
+| N/A   46C    P0              27W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199412/199412.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200309/200309.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198104/198104.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198919/198919.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198605/198605.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198708/198708.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200505/200505.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198616/198616.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199003/199003.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201209/201209.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200715/200715.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200119/200119.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200424/200424.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201601/201601.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/202114/202114.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199219/199219.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199017/199017.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199716/199716.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201416/201416.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/202109/202109.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201214/201214.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198408/198408.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200708/200708.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200605/200605.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200807/200807.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200420/200420.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200010/200010.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199810/199810.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201307/201307.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199405/199405.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200427/200427.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198706/198706.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199809/199809.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198209/198209.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200004/200004.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200813/200813.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199801/199801.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200707/200707.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200208/200208.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199005/199005.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200808/200808.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199609/199609.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198212/198212.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200908/200908.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201205/201205.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200020/200020.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201410/201410.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199413/199413.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198105/198105.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199215/199215.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200609/200609.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201111/201111.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199802/199802.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201521/201521.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201315/201315.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200407/200407.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199417/199417.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201513/201513.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200108/200108.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200519/200519.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200513/200513.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198802/198802.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200116/200116.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201709/201709.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/198614/198614.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200105/200105.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201617/201617.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/200815/200815.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201710/201710.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199216/199216.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201011/201011.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/199012/199012.zarr
+Found zarr directory: /vol/bitbucket/zl1823/Typhoon-forecasting/dataset/pre_processed_dataset/ERA5_without_nan_taiwan/201806/201806.zarr
+Train dataset length: 1267
+Validation dataset length: 281
+Test dataset length: 283
+Finetuning CNN Model:
+Training with batch_size=32 and learning_rate=1e-05
+Epoch [1/200], Average Training Loss: 0.3244
+Epoch [1/200], Validation Loss: 0.2954
+Epoch [2/200], Average Training Loss: 0.2465
+Epoch [2/200], Validation Loss: 0.2035
+Epoch [3/200], Average Training Loss: 0.2101
+Epoch [3/200], Validation Loss: 0.1838
+Epoch [4/200], Average Training Loss: 0.1990
+Epoch [4/200], Validation Loss: 0.1700
+Epoch [5/200], Average Training Loss: 0.1904
+Epoch [5/200], Validation Loss: 0.1556
+Epoch [6/200], Average Training Loss: 0.1836
+Epoch [6/200], Validation Loss: 0.1438
+Epoch [7/200], Average Training Loss: 0.1775
+Epoch [7/200], Validation Loss: 0.1424
+Epoch [8/200], Average Training Loss: 0.1741
+Epoch [8/200], Validation Loss: 0.1362
+Epoch [9/200], Average Training Loss: 0.1692
+Epoch [9/200], Validation Loss: 0.1371
+Epoch [10/200], Average Training Loss: 0.1667
+Epoch [10/200], Validation Loss: 0.1318
+Epoch [11/200], Average Training Loss: 0.1644
+Epoch [11/200], Validation Loss: 0.1213
+Epoch [12/200], Average Training Loss: 0.1613
+Epoch [12/200], Validation Loss: 0.1200
+Epoch [13/200], Average Training Loss: 0.1594
+Epoch [13/200], Validation Loss: 0.1157
+Epoch [14/200], Average Training Loss: 0.1597
+Epoch [14/200], Validation Loss: 0.1147
+Epoch [15/200], Average Training Loss: 0.1554
+Epoch [15/200], Validation Loss: 0.1117
+Epoch [16/200], Average Training Loss: 0.1509
+Epoch [16/200], Validation Loss: 0.1165
+Epoch [17/200], Average Training Loss: 0.1508
+Epoch [17/200], Validation Loss: 0.1101
+Epoch [18/200], Average Training Loss: 0.1473
+Epoch [18/200], Validation Loss: 0.1094
+Epoch [19/200], Average Training Loss: 0.1448
+Epoch [19/200], Validation Loss: 0.1121
+Epoch [20/200], Average Training Loss: 0.1429
+Epoch [20/200], Validation Loss: 0.1052
+Epoch [21/200], Average Training Loss: 0.1422
+Epoch [21/200], Validation Loss: 0.1171
+Epoch [22/200], Average Training Loss: 0.1422
+Epoch [22/200], Validation Loss: 0.1025
+Epoch [23/200], Average Training Loss: 0.1368
+Epoch [23/200], Validation Loss: 0.1027
+Epoch [24/200], Average Training Loss: 0.1400
+Epoch [24/200], Validation Loss: 0.1043
+Epoch [25/200], Average Training Loss: 0.1382
+Epoch [25/200], Validation Loss: 0.1070
+Epoch [26/200], Average Training Loss: 0.1332
+Epoch [26/200], Validation Loss: 0.1037
+Epoch [27/200], Average Training Loss: 0.1331
+Epoch [27/200], Validation Loss: 0.0992
+Epoch [28/200], Average Training Loss: 0.1294
+Epoch [28/200], Validation Loss: 0.1008
+Epoch [29/200], Average Training Loss: 0.1311
+Epoch [29/200], Validation Loss: 0.0983
+Epoch [30/200], Average Training Loss: 0.1267
+Epoch [30/200], Validation Loss: 0.0997
+Epoch [31/200], Average Training Loss: 0.1255
+Epoch [31/200], Validation Loss: 0.0981
+Epoch [32/200], Average Training Loss: 0.1249
+Epoch [32/200], Validation Loss: 0.1000
+Epoch [33/200], Average Training Loss: 0.1215
+Epoch [33/200], Validation Loss: 0.0954
+Epoch [34/200], Average Training Loss: 0.1186
+Epoch [34/200], Validation Loss: 0.0950
+Epoch [35/200], Average Training Loss: 0.1166
+Epoch [35/200], Validation Loss: 0.0947
+Epoch [36/200], Average Training Loss: 0.1165
+Epoch [36/200], Validation Loss: 0.0982
+Epoch [37/200], Average Training Loss: 0.1167
+Epoch [37/200], Validation Loss: 0.0930
+Epoch [38/200], Average Training Loss: 0.1153
+Epoch [38/200], Validation Loss: 0.0923
+Epoch [39/200], Average Training Loss: 0.1129
+Epoch [39/200], Validation Loss: 0.0950
+Epoch [40/200], Average Training Loss: 0.1142
+Epoch [40/200], Validation Loss: 0.0978
+Epoch [41/200], Average Training Loss: 0.1071
+Epoch [41/200], Validation Loss: 0.0935
+Epoch [42/200], Average Training Loss: 0.1059
+Epoch [42/200], Validation Loss: 0.0917
+Epoch [43/200], Average Training Loss: 0.1054
+Epoch [43/200], Validation Loss: 0.0887
+Epoch [44/200], Average Training Loss: 0.1028
+Epoch [44/200], Validation Loss: 0.0897
+Epoch [45/200], Average Training Loss: 0.1025
+Epoch [45/200], Validation Loss: 0.0916
+Epoch [46/200], Average Training Loss: 0.1015
+Epoch [46/200], Validation Loss: 0.0873
+Epoch [47/200], Average Training Loss: 0.0989
+Epoch [47/200], Validation Loss: 0.0946
+Epoch [48/200], Average Training Loss: 0.0965
+Epoch [48/200], Validation Loss: 0.0890
+Epoch [49/200], Average Training Loss: 0.0985
+Epoch [49/200], Validation Loss: 0.0964
+Epoch [50/200], Average Training Loss: 0.0957
+Epoch [50/200], Validation Loss: 0.0903
+Epoch [51/200], Average Training Loss: 0.0938
+Epoch [51/200], Validation Loss: 0.0856
+Epoch [52/200], Average Training Loss: 0.0936
+Epoch [52/200], Validation Loss: 0.0865
+Epoch [53/200], Average Training Loss: 0.0939
+Epoch [53/200], Validation Loss: 0.0877
+Epoch [54/200], Average Training Loss: 0.0920
+Epoch [54/200], Validation Loss: 0.0900
+Epoch [55/200], Average Training Loss: 0.0897
+Epoch [55/200], Validation Loss: 0.0874
+Epoch [56/200], Average Training Loss: 0.0907
+Epoch [56/200], Validation Loss: 0.0842
+Epoch [57/200], Average Training Loss: 0.0874
+Epoch [57/200], Validation Loss: 0.0848
+Epoch [58/200], Average Training Loss: 0.0871
+Epoch [58/200], Validation Loss: 0.0923
+Epoch [59/200], Average Training Loss: 0.0875
+Epoch [59/200], Validation Loss: 0.0846
+Epoch [60/200], Average Training Loss: 0.0827
+Epoch [60/200], Validation Loss: 0.0837
+Epoch [61/200], Average Training Loss: 0.0862
+Epoch [61/200], Validation Loss: 0.0952
+Epoch [62/200], Average Training Loss: 0.0838
+Epoch [62/200], Validation Loss: 0.0864
+Epoch [63/200], Average Training Loss: 0.0820
+Epoch [63/200], Validation Loss: 0.0840
+Epoch [64/200], Average Training Loss: 0.0817
+Epoch [64/200], Validation Loss: 0.0823
+Epoch [65/200], Average Training Loss: 0.0808
+Epoch [65/200], Validation Loss: 0.0886
+Epoch [66/200], Average Training Loss: 0.0812
+Epoch [66/200], Validation Loss: 0.0824
+Epoch [67/200], Average Training Loss: 0.0819
+Epoch [67/200], Validation Loss: 0.0896
+Epoch [68/200], Average Training Loss: 0.0797
+Epoch [68/200], Validation Loss: 0.0917
+Epoch [69/200], Average Training Loss: 0.0787
+Epoch [69/200], Validation Loss: 0.0895
+Epoch [70/200], Average Training Loss: 0.0786
+Epoch [70/200], Validation Loss: 0.0844
+Epoch [71/200], Average Training Loss: 0.0789
+Epoch [71/200], Validation Loss: 0.0893
+Epoch [72/200], Average Training Loss: 0.0752
+Epoch [72/200], Validation Loss: 0.0852
+Epoch [73/200], Average Training Loss: 0.0751
+Epoch [73/200], Validation Loss: 0.0898
+Epoch [74/200], Average Training Loss: 0.0765
+Epoch [74/200], Validation Loss: 0.0837
+Epoch [75/200], Average Training Loss: 0.0768
+Epoch [75/200], Validation Loss: 0.0894
+Epoch [76/200], Average Training Loss: 0.0728
+Epoch [76/200], Validation Loss: 0.0794
+Epoch [77/200], Average Training Loss: 0.0722
+Epoch [77/200], Validation Loss: 0.0870
+Epoch [78/200], Average Training Loss: 0.0708
+Epoch [78/200], Validation Loss: 0.0953
+Epoch [79/200], Average Training Loss: 0.0713
+Epoch [79/200], Validation Loss: 0.0886
+Epoch [80/200], Average Training Loss: 0.0707
+Epoch [80/200], Validation Loss: 0.0811
+Epoch [81/200], Average Training Loss: 0.0716
+Epoch [81/200], Validation Loss: 0.0848
+Epoch [82/200], Average Training Loss: 0.0689
+Epoch [82/200], Validation Loss: 0.0832
+Epoch [83/200], Average Training Loss: 0.0711
+Epoch [83/200], Validation Loss: 0.0888
+Epoch [84/200], Average Training Loss: 0.0680
+Epoch [84/200], Validation Loss: 0.0845
+Epoch [85/200], Average Training Loss: 0.0687
+Epoch [85/200], Validation Loss: 0.0824
+Epoch [86/200], Average Training Loss: 0.0694
+Epoch [86/200], Validation Loss: 0.0867
+Epoch [87/200], Average Training Loss: 0.0663
+Epoch [87/200], Validation Loss: 0.0798
+Epoch [88/200], Average Training Loss: 0.0663
+Epoch [88/200], Validation Loss: 0.0864
+Epoch [89/200], Average Training Loss: 0.0640
+Epoch [89/200], Validation Loss: 0.0838
+Epoch [90/200], Average Training Loss: 0.0646
+Epoch [90/200], Validation Loss: 0.0852
+Epoch [91/200], Average Training Loss: 0.0646
+Epoch [91/200], Validation Loss: 0.0845
+Epoch [92/200], Average Training Loss: 0.0654
+Epoch [92/200], Validation Loss: 0.0824
+Epoch [93/200], Average Training Loss: 0.0656
+Epoch [93/200], Validation Loss: 0.0832
+Epoch [94/200], Average Training Loss: 0.0637
+Epoch [94/200], Validation Loss: 0.0827
+Epoch [95/200], Average Training Loss: 0.0634
+Epoch [95/200], Validation Loss: 0.0821
+Epoch [96/200], Average Training Loss: 0.0610
+Epoch [96/200], Validation Loss: 0.0824
+Early stopping at epoch 96
+Finished Training
+Training with batch_size=32 and learning_rate=0.0001
+Epoch [1/200], Average Training Loss: 0.2318
+Epoch [1/200], Validation Loss: 0.1771
+Epoch [2/200], Average Training Loss: 0.1836
+Epoch [2/200], Validation Loss: 0.1451
+Epoch [3/200], Average Training Loss: 0.1676
+Epoch [3/200], Validation Loss: 0.1169
+Epoch [4/200], Average Training Loss: 0.1599
+Epoch [4/200], Validation Loss: 0.1129
+Epoch [5/200], Average Training Loss: 0.1516
+Epoch [5/200], Validation Loss: 0.1046
+Epoch [6/200], Average Training Loss: 0.1449
+Epoch [6/200], Validation Loss: 0.1065
+Epoch [7/200], Average Training Loss: 0.1424
+Epoch [7/200], Validation Loss: 0.1091
+Epoch [8/200], Average Training Loss: 0.1348
+Epoch [8/200], Validation Loss: 0.1018
+Epoch [9/200], Average Training Loss: 0.1333
+Epoch [9/200], Validation Loss: 0.0903
+Epoch [10/200], Average Training Loss: 0.1248
+Epoch [10/200], Validation Loss: 0.0956
+Epoch [11/200], Average Training Loss: 0.1229
+Epoch [11/200], Validation Loss: 0.0918
+Epoch [12/200], Average Training Loss: 0.1182
+Epoch [12/200], Validation Loss: 0.0971
+Epoch [13/200], Average Training Loss: 0.1101
+Epoch [13/200], Validation Loss: 0.0833
+Epoch [14/200], Average Training Loss: 0.1048
+Epoch [14/200], Validation Loss: 0.0819
+Epoch [15/200], Average Training Loss: 0.1014
+Epoch [15/200], Validation Loss: 0.0890
+Epoch [16/200], Average Training Loss: 0.0963
+Epoch [16/200], Validation Loss: 0.0849
+Epoch [17/200], Average Training Loss: 0.0903
+Epoch [17/200], Validation Loss: 0.0812
+Epoch [18/200], Average Training Loss: 0.0881
+Epoch [18/200], Validation Loss: 0.0972
+Epoch [19/200], Average Training Loss: 0.0819
+Epoch [19/200], Validation Loss: 0.0739
+Epoch [20/200], Average Training Loss: 0.0775
+Epoch [20/200], Validation Loss: 0.0789
+Epoch [21/200], Average Training Loss: 0.0725
+Epoch [21/200], Validation Loss: 0.0714
+Epoch [22/200], Average Training Loss: 0.0720
+Epoch [22/200], Validation Loss: 0.0719
+Epoch [23/200], Average Training Loss: 0.0684
+Epoch [23/200], Validation Loss: 0.0724
+Epoch [24/200], Average Training Loss: 0.0639
+Epoch [24/200], Validation Loss: 0.0705
+Epoch [25/200], Average Training Loss: 0.0604
+Epoch [25/200], Validation Loss: 0.0782
+Epoch [26/200], Average Training Loss: 0.0611
+Epoch [26/200], Validation Loss: 0.0726
+Epoch [27/200], Average Training Loss: 0.0593
+Epoch [27/200], Validation Loss: 0.0751
+Epoch [28/200], Average Training Loss: 0.0549
+Epoch [28/200], Validation Loss: 0.0700
+Epoch [29/200], Average Training Loss: 0.0539
+Epoch [29/200], Validation Loss: 0.0669
+Epoch [30/200], Average Training Loss: 0.0503
+Epoch [30/200], Validation Loss: 0.0707
+Epoch [31/200], Average Training Loss: 0.0497
+Epoch [31/200], Validation Loss: 0.0667
+Epoch [32/200], Average Training Loss: 0.0459
+Epoch [32/200], Validation Loss: 0.0676
+Epoch [33/200], Average Training Loss: 0.0440
+Epoch [33/200], Validation Loss: 0.0666
+Epoch [34/200], Average Training Loss: 0.0435
+Epoch [34/200], Validation Loss: 0.0679
+Epoch [35/200], Average Training Loss: 0.0414
+Epoch [35/200], Validation Loss: 0.0686
+Epoch [36/200], Average Training Loss: 0.0422
+Epoch [36/200], Validation Loss: 0.0667
+Epoch [37/200], Average Training Loss: 0.0381
+Epoch [37/200], Validation Loss: 0.0654
+Epoch [38/200], Average Training Loss: 0.0372
+Epoch [38/200], Validation Loss: 0.0660
+Epoch [39/200], Average Training Loss: 0.0363
+Epoch [39/200], Validation Loss: 0.0650
+Epoch [40/200], Average Training Loss: 0.0348
+Epoch [40/200], Validation Loss: 0.0672
+Epoch [41/200], Average Training Loss: 0.0342
+Epoch [41/200], Validation Loss: 0.0613
+Epoch [42/200], Average Training Loss: 0.0322
+Epoch [42/200], Validation Loss: 0.0602
+Epoch [43/200], Average Training Loss: 0.0301
+Epoch [43/200], Validation Loss: 0.0616
+Epoch [44/200], Average Training Loss: 0.0300
+Epoch [44/200], Validation Loss: 0.0630
+Epoch [45/200], Average Training Loss: 0.0294
+Epoch [45/200], Validation Loss: 0.0612
+Epoch [46/200], Average Training Loss: 0.0280
+Epoch [46/200], Validation Loss: 0.0612
+Epoch [47/200], Average Training Loss: 0.0271
+Epoch [47/200], Validation Loss: 0.0600
+Epoch [48/200], Average Training Loss: 0.0259
+Epoch [48/200], Validation Loss: 0.0608
+Epoch [49/200], Average Training Loss: 0.0249
+Epoch [49/200], Validation Loss: 0.0602
+Epoch [50/200], Average Training Loss: 0.0256
+Epoch [50/200], Validation Loss: 0.0597
+Epoch [51/200], Average Training Loss: 0.0252
+Epoch [51/200], Validation Loss: 0.0610
+Epoch [52/200], Average Training Loss: 0.0237
+Epoch [52/200], Validation Loss: 0.0616
+Epoch [53/200], Average Training Loss: 0.0230
+Epoch [53/200], Validation Loss: 0.0578
+Epoch [54/200], Average Training Loss: 0.0220
+Epoch [54/200], Validation Loss: 0.0612
+Epoch [55/200], Average Training Loss: 0.0217
+Epoch [55/200], Validation Loss: 0.0589
+Epoch [56/200], Average Training Loss: 0.0207
+Epoch [56/200], Validation Loss: 0.0593
+Epoch [57/200], Average Training Loss: 0.0205
+Epoch [57/200], Validation Loss: 0.0582
+Epoch [58/200], Average Training Loss: 0.0199
+Epoch [58/200], Validation Loss: 0.0576
+Epoch [59/200], Average Training Loss: 0.0193
+Epoch [59/200], Validation Loss: 0.0588
+Epoch [60/200], Average Training Loss: 0.0190
+Epoch [60/200], Validation Loss: 0.0575
+Epoch [61/200], Average Training Loss: 0.0189
+Epoch [61/200], Validation Loss: 0.0581
+Epoch [62/200], Average Training Loss: 0.0180
+Epoch [62/200], Validation Loss: 0.0584
+Epoch [63/200], Average Training Loss: 0.0178
+Epoch [63/200], Validation Loss: 0.0574
+Epoch [64/200], Average Training Loss: 0.0179
+Epoch [64/200], Validation Loss: 0.0571
+Epoch [65/200], Average Training Loss: 0.0175
+Epoch [65/200], Validation Loss: 0.0556
+Epoch [66/200], Average Training Loss: 0.0174
+Epoch [66/200], Validation Loss: 0.0589
+Epoch [67/200], Average Training Loss: 0.0167
+Epoch [67/200], Validation Loss: 0.0563
+Epoch [68/200], Average Training Loss: 0.0158
+Epoch [68/200], Validation Loss: 0.0581
+Epoch [69/200], Average Training Loss: 0.0160
+Epoch [69/200], Validation Loss: 0.0571
+Epoch [70/200], Average Training Loss: 0.0160
+Epoch [70/200], Validation Loss: 0.0578
+Epoch [71/200], Average Training Loss: 0.0153
+Epoch [71/200], Validation Loss: 0.0590
+Epoch [72/200], Average Training Loss: 0.0151
+Epoch [72/200], Validation Loss: 0.0576
+Epoch [73/200], Average Training Loss: 0.0150
+Epoch [73/200], Validation Loss: 0.0556
+Epoch [74/200], Average Training Loss: 0.0146
+Epoch [74/200], Validation Loss: 0.0552
+Epoch [75/200], Average Training Loss: 0.0146
+Epoch [75/200], Validation Loss: 0.0574
+Epoch [76/200], Average Training Loss: 0.0144
+Epoch [76/200], Validation Loss: 0.0566
+Epoch [77/200], Average Training Loss: 0.0140
+Epoch [77/200], Validation Loss: 0.0559
+Epoch [78/200], Average Training Loss: 0.0141
+Epoch [78/200], Validation Loss: 0.0589
+Epoch [79/200], Average Training Loss: 0.0141
+Epoch [79/200], Validation Loss: 0.0558
+Epoch [80/200], Average Training Loss: 0.0140
+Epoch [80/200], Validation Loss: 0.0562
+Epoch [81/200], Average Training Loss: 0.0137
+Epoch [81/200], Validation Loss: 0.0574
+Epoch [82/200], Average Training Loss: 0.0131
+Epoch [82/200], Validation Loss: 0.0549
+Epoch [83/200], Average Training Loss: 0.0133
+Epoch [83/200], Validation Loss: 0.0574
+Epoch [84/200], Average Training Loss: 0.0130
+Epoch [84/200], Validation Loss: 0.0548
+Epoch [85/200], Average Training Loss: 0.0131
+Epoch [85/200], Validation Loss: 0.0555
+Epoch [86/200], Average Training Loss: 0.0124
+Epoch [86/200], Validation Loss: 0.0572
+Epoch [87/200], Average Training Loss: 0.0127
+Epoch [87/200], Validation Loss: 0.0556
+Epoch [88/200], Average Training Loss: 0.0126
+Epoch [88/200], Validation Loss: 0.0572
+Epoch [89/200], Average Training Loss: 0.0127
+Epoch [89/200], Validation Loss: 0.0544
+Epoch [90/200], Average Training Loss: 0.0122
+Epoch [90/200], Validation Loss: 0.0558
+Epoch [91/200], Average Training Loss: 0.0126
+Epoch [91/200], Validation Loss: 0.0547
+Epoch [92/200], Average Training Loss: 0.0127
+Epoch [92/200], Validation Loss: 0.0565
+Epoch [93/200], Average Training Loss: 0.0122
+Epoch [93/200], Validation Loss: 0.0556
+Epoch [94/200], Average Training Loss: 0.0120
+Epoch [94/200], Validation Loss: 0.0551
+Epoch [95/200], Average Training Loss: 0.0123
+Epoch [95/200], Validation Loss: 0.0574
+Epoch [96/200], Average Training Loss: 0.0121
+Epoch [96/200], Validation Loss: 0.0537
+Epoch [97/200], Average Training Loss: 0.0122
+Epoch [97/200], Validation Loss: 0.0564
+Epoch [98/200], Average Training Loss: 0.0122
+Epoch [98/200], Validation Loss: 0.0584
+Epoch [99/200], Average Training Loss: 0.0125
+Epoch [99/200], Validation Loss: 0.0580
+Epoch [100/200], Average Training Loss: 0.0120
+Epoch [100/200], Validation Loss: 0.0524
+Epoch [101/200], Average Training Loss: 0.0119
+Epoch [101/200], Validation Loss: 0.0550
+Epoch [102/200], Average Training Loss: 0.0117
+Epoch [102/200], Validation Loss: 0.0551
+Epoch [103/200], Average Training Loss: 0.0112
+Epoch [103/200], Validation Loss: 0.0558
+Epoch [104/200], Average Training Loss: 0.0110
+Epoch [104/200], Validation Loss: 0.0543
+Epoch [105/200], Average Training Loss: 0.0112
+Epoch [105/200], Validation Loss: 0.0537
+Epoch [106/200], Average Training Loss: 0.0106
+Epoch [106/200], Validation Loss: 0.0542
+Epoch [107/200], Average Training Loss: 0.0106
+Epoch [107/200], Validation Loss: 0.0547
+Epoch [108/200], Average Training Loss: 0.0108
+Epoch [108/200], Validation Loss: 0.0544
+Epoch [109/200], Average Training Loss: 0.0108
+Epoch [109/200], Validation Loss: 0.0519
+Epoch [110/200], Average Training Loss: 0.0107
+Epoch [110/200], Validation Loss: 0.0547
+Epoch [111/200], Average Training Loss: 0.0108
+Epoch [111/200], Validation Loss: 0.0531
+Epoch [112/200], Average Training Loss: 0.0106
+Epoch [112/200], Validation Loss: 0.0529
+Epoch [113/200], Average Training Loss: 0.0102
+Epoch [113/200], Validation Loss: 0.0533
+Epoch [114/200], Average Training Loss: 0.0098
+Epoch [114/200], Validation Loss: 0.0545
+Epoch [115/200], Average Training Loss: 0.0102
+Epoch [115/200], Validation Loss: 0.0550
+Epoch [116/200], Average Training Loss: 0.0099
+Epoch [116/200], Validation Loss: 0.0535
+Epoch [117/200], Average Training Loss: 0.0102
+Epoch [117/200], Validation Loss: 0.0532
+Epoch [118/200], Average Training Loss: 0.0103
+Epoch [118/200], Validation Loss: 0.0551
+Epoch [119/200], Average Training Loss: 0.0099
+Epoch [119/200], Validation Loss: 0.0551
+Epoch [120/200], Average Training Loss: 0.0097
+Epoch [120/200], Validation Loss: 0.0542
+Epoch [121/200], Average Training Loss: 0.0098
+Epoch [121/200], Validation Loss: 0.0538
+Epoch [122/200], Average Training Loss: 0.0101
+Epoch [122/200], Validation Loss: 0.0543
+Epoch [123/200], Average Training Loss: 0.0098
+Epoch [123/200], Validation Loss: 0.0540
+Epoch [124/200], Average Training Loss: 0.0095
+Epoch [124/200], Validation Loss: 0.0529
+Epoch [125/200], Average Training Loss: 0.0100
+Epoch [125/200], Validation Loss: 0.0531
+Epoch [126/200], Average Training Loss: 0.0095
+Epoch [126/200], Validation Loss: 0.0528
+Epoch [127/200], Average Training Loss: 0.0096
+Epoch [127/200], Validation Loss: 0.0518
+Epoch [128/200], Average Training Loss: 0.0097
+Epoch [128/200], Validation Loss: 0.0549
+Epoch [129/200], Average Training Loss: 0.0096
+Epoch [129/200], Validation Loss: 0.0544
+Epoch [130/200], Average Training Loss: 0.0098
+Epoch [130/200], Validation Loss: 0.0541
+Epoch [131/200], Average Training Loss: 0.0093
+Epoch [131/200], Validation Loss: 0.0535
+Epoch [132/200], Average Training Loss: 0.0094
+Epoch [132/200], Validation Loss: 0.0533
+Epoch [133/200], Average Training Loss: 0.0088
+Epoch [133/200], Validation Loss: 0.0540
+Epoch [134/200], Average Training Loss: 0.0094
+Epoch [134/200], Validation Loss: 0.0537
+Epoch [135/200], Average Training Loss: 0.0092
+Epoch [135/200], Validation Loss: 0.0540
+Epoch [136/200], Average Training Loss: 0.0092
+Epoch [136/200], Validation Loss: 0.0539
+Epoch [137/200], Average Training Loss: 0.0092
+Epoch [137/200], Validation Loss: 0.0540
+Epoch [138/200], Average Training Loss: 0.0088
+Epoch [138/200], Validation Loss: 0.0541
+Epoch [139/200], Average Training Loss: 0.0090
+Epoch [139/200], Validation Loss: 0.0557
+Epoch [140/200], Average Training Loss: 0.0087
+Epoch [140/200], Validation Loss: 0.0530
+Epoch [141/200], Average Training Loss: 0.0087
+Epoch [141/200], Validation Loss: 0.0553
+Epoch [142/200], Average Training Loss: 0.0090
+Epoch [142/200], Validation Loss: 0.0558
+Epoch [143/200], Average Training Loss: 0.0089
+Epoch [143/200], Validation Loss: 0.0530
+Epoch [144/200], Average Training Loss: 0.0088
+Epoch [144/200], Validation Loss: 0.0542
+Epoch [145/200], Average Training Loss: 0.0088
+Epoch [145/200], Validation Loss: 0.0549
+Epoch [146/200], Average Training Loss: 0.0085
+Epoch [146/200], Validation Loss: 0.0539
+Epoch [147/200], Average Training Loss: 0.0086
+Epoch [147/200], Validation Loss: 0.0542
+Early stopping at epoch 147
+Finished Training
+Training with batch_size=32 and learning_rate=0.001
+Epoch [1/200], Average Training Loss: 0.2726
+Epoch [1/200], Validation Loss: 0.2060
+Epoch [2/200], Average Training Loss: 0.1949
+Epoch [2/200], Validation Loss: 0.1767
+Epoch [3/200], Average Training Loss: 0.1786
+Epoch [3/200], Validation Loss: 0.1494
+Epoch [4/200], Average Training Loss: 0.1704
+Epoch [4/200], Validation Loss: 0.1406
+Epoch [5/200], Average Training Loss: 0.1622
+Epoch [5/200], Validation Loss: 0.1384
+Epoch [6/200], Average Training Loss: 0.1637
+Epoch [6/200], Validation Loss: 0.1208
+Epoch [7/200], Average Training Loss: 0.1592
+Epoch [7/200], Validation Loss: 0.1303
+Epoch [8/200], Average Training Loss: 0.1546
+Epoch [8/200], Validation Loss: 0.1214
+Epoch [9/200], Average Training Loss: 0.1499
+Epoch [9/200], Validation Loss: 0.1064
+Epoch [10/200], Average Training Loss: 0.1504
+Epoch [10/200], Validation Loss: 0.1053
+Epoch [11/200], Average Training Loss: 0.1451
+Epoch [11/200], Validation Loss: 0.1067
+Epoch [12/200], Average Training Loss: 0.1464
+Epoch [12/200], Validation Loss: 0.1078
+Epoch [13/200], Average Training Loss: 0.1362
+Epoch [13/200], Validation Loss: 0.0977
+Epoch [14/200], Average Training Loss: 0.1335
+Epoch [14/200], Validation Loss: 0.0953
+Epoch [15/200], Average Training Loss: 0.1290
+Epoch [15/200], Validation Loss: 0.0946
+Epoch [16/200], Average Training Loss: 0.1279
+Epoch [16/200], Validation Loss: 0.0983
+Epoch [17/200], Average Training Loss: 0.1219
+Epoch [17/200], Validation Loss: 0.0918
+Epoch [18/200], Average Training Loss: 0.1196
+Epoch [18/200], Validation Loss: 0.0899
+Epoch [19/200], Average Training Loss: 0.1128
+Epoch [19/200], Validation Loss: 0.0894
+Epoch [20/200], Average Training Loss: 0.1083
+Epoch [20/200], Validation Loss: 0.0864
+Epoch [21/200], Average Training Loss: 0.1046
+Epoch [21/200], Validation Loss: 0.0900
+Epoch [22/200], Average Training Loss: 0.1017
+Epoch [22/200], Validation Loss: 0.0899
+Epoch [23/200], Average Training Loss: 0.0999
+Epoch [23/200], Validation Loss: 0.0879
+Epoch [24/200], Average Training Loss: 0.0936
+Epoch [24/200], Validation Loss: 0.0881
+Epoch [25/200], Average Training Loss: 0.0942
+Epoch [25/200], Validation Loss: 0.0835
+Epoch [26/200], Average Training Loss: 0.0837
+Epoch [26/200], Validation Loss: 0.0843
+Epoch [27/200], Average Training Loss: 0.0819
+Epoch [27/200], Validation Loss: 0.0841
+Epoch [28/200], Average Training Loss: 0.0802
+Epoch [28/200], Validation Loss: 0.0801
+Epoch [29/200], Average Training Loss: 0.0743
+Epoch [29/200], Validation Loss: 0.0810
+Epoch [30/200], Average Training Loss: 0.0698
+Epoch [30/200], Validation Loss: 0.0773
+Epoch [31/200], Average Training Loss: 0.0693
+Epoch [31/200], Validation Loss: 0.0778
+Epoch [32/200], Average Training Loss: 0.0668
+Epoch [32/200], Validation Loss: 0.0807
+Epoch [33/200], Average Training Loss: 0.0651
+Epoch [33/200], Validation Loss: 0.0742
+Epoch [34/200], Average Training Loss: 0.0622
+Epoch [34/200], Validation Loss: 0.0772
+Epoch [35/200], Average Training Loss: 0.0600
+Epoch [35/200], Validation Loss: 0.0776
+Epoch [36/200], Average Training Loss: 0.0580
+Epoch [36/200], Validation Loss: 0.0759
+Epoch [37/200], Average Training Loss: 0.0548
+Epoch [37/200], Validation Loss: 0.0722
+Epoch [38/200], Average Training Loss: 0.0524
+Epoch [38/200], Validation Loss: 0.0751
+Epoch [39/200], Average Training Loss: 0.0494
+Epoch [39/200], Validation Loss: 0.0716
+Epoch [40/200], Average Training Loss: 0.0474
+Epoch [40/200], Validation Loss: 0.0738
+Epoch [41/200], Average Training Loss: 0.0488
+Epoch [41/200], Validation Loss: 0.0707
+Epoch [42/200], Average Training Loss: 0.0463
+Epoch [42/200], Validation Loss: 0.0700
+Epoch [43/200], Average Training Loss: 0.0447
+Epoch [43/200], Validation Loss: 0.0665
+Epoch [44/200], Average Training Loss: 0.0425
+Epoch [44/200], Validation Loss: 0.0776
+Epoch [45/200], Average Training Loss: 0.0432
+Epoch [45/200], Validation Loss: 0.0759
+Epoch [46/200], Average Training Loss: 0.0406
+Epoch [46/200], Validation Loss: 0.0715
+Epoch [47/200], Average Training Loss: 0.0386
+Epoch [47/200], Validation Loss: 0.0680
+Epoch [48/200], Average Training Loss: 0.0380
+Epoch [48/200], Validation Loss: 0.0680
+Epoch [49/200], Average Training Loss: 0.0362
+Epoch [49/200], Validation Loss: 0.0714
+Epoch [50/200], Average Training Loss: 0.0360
+Epoch [50/200], Validation Loss: 0.0663
+Epoch [51/200], Average Training Loss: 0.0359
+Epoch [51/200], Validation Loss: 0.0677
+Epoch [52/200], Average Training Loss: 0.0328
+Epoch [52/200], Validation Loss: 0.0692
+Epoch [53/200], Average Training Loss: 0.0315
+Epoch [53/200], Validation Loss: 0.0676
+Epoch [54/200], Average Training Loss: 0.0299
+Epoch [54/200], Validation Loss: 0.0653
+Epoch [55/200], Average Training Loss: 0.0286
+Epoch [55/200], Validation Loss: 0.0640
+Epoch [56/200], Average Training Loss: 0.0290
+Epoch [56/200], Validation Loss: 0.0645
+Epoch [57/200], Average Training Loss: 0.0268
+Epoch [57/200], Validation Loss: 0.0657
+Epoch [58/200], Average Training Loss: 0.0279
+Epoch [58/200], Validation Loss: 0.0642
+Epoch [59/200], Average Training Loss: 0.0260
+Epoch [59/200], Validation Loss: 0.0630
+Epoch [60/200], Average Training Loss: 0.0247
+Epoch [60/200], Validation Loss: 0.0632
+Epoch [61/200], Average Training Loss: 0.0249
+Epoch [61/200], Validation Loss: 0.0620
+Epoch [62/200], Average Training Loss: 0.0238
+Epoch [62/200], Validation Loss: 0.0615
+Epoch [63/200], Average Training Loss: 0.0237
+Epoch [63/200], Validation Loss: 0.0644
+Epoch [64/200], Average Training Loss: 0.0227
+Epoch [64/200], Validation Loss: 0.0599
+Epoch [65/200], Average Training Loss: 0.0228
+Epoch [65/200], Validation Loss: 0.0607
+Epoch [66/200], Average Training Loss: 0.0216
+Epoch [66/200], Validation Loss: 0.0608
+Epoch [67/200], Average Training Loss: 0.0225
+Epoch [67/200], Validation Loss: 0.0615
+Epoch [68/200], Average Training Loss: 0.0215
+Epoch [68/200], Validation Loss: 0.0599
+Epoch [69/200], Average Training Loss: 0.0210
+Epoch [69/200], Validation Loss: 0.0615
+Epoch [70/200], Average Training Loss: 0.0206
+Epoch [70/200], Validation Loss: 0.0595
+Epoch [71/200], Average Training Loss: 0.0219
+Epoch [71/200], Validation Loss: 0.0596
+Epoch [72/200], Average Training Loss: 0.0202
+Epoch [72/200], Validation Loss: 0.0583
+Epoch [73/200], Average Training Loss: 0.0193
+Epoch [73/200], Validation Loss: 0.0586
+Epoch [74/200], Average Training Loss: 0.0194
+Epoch [74/200], Validation Loss: 0.0597
+Epoch [75/200], Average Training Loss: 0.0183
+Epoch [75/200], Validation Loss: 0.0593
+Epoch [76/200], Average Training Loss: 0.0182
+Epoch [76/200], Validation Loss: 0.0601
+Epoch [77/200], Average Training Loss: 0.0181
+Epoch [77/200], Validation Loss: 0.0613
+Epoch [78/200], Average Training Loss: 0.0176
+Epoch [78/200], Validation Loss: 0.0604
+Epoch [79/200], Average Training Loss: 0.0173
+Epoch [79/200], Validation Loss: 0.0589
+Epoch [80/200], Average Training Loss: 0.0166
+Epoch [80/200], Validation Loss: 0.0585
+Epoch [81/200], Average Training Loss: 0.0173
+Epoch [81/200], Validation Loss: 0.0594
+Epoch [82/200], Average Training Loss: 0.0162
+Epoch [82/200], Validation Loss: 0.0589
+Epoch [83/200], Average Training Loss: 0.0166
+Epoch [83/200], Validation Loss: 0.0596
+Epoch [84/200], Average Training Loss: 0.0164
+Epoch [84/200], Validation Loss: 0.0611
+Epoch [85/200], Average Training Loss: 0.0166
+Epoch [85/200], Validation Loss: 0.0585
+Epoch [86/200], Average Training Loss: 0.0159
+Epoch [86/200], Validation Loss: 0.0588
+Epoch [87/200], Average Training Loss: 0.0152
+Epoch [87/200], Validation Loss: 0.0576
+Epoch [88/200], Average Training Loss: 0.0148
+Epoch [88/200], Validation Loss: 0.0590
+Epoch [89/200], Average Training Loss: 0.0152
+Epoch [89/200], Validation Loss: 0.0559
+Epoch [90/200], Average Training Loss: 0.0148
+Epoch [90/200], Validation Loss: 0.0581
+Epoch [91/200], Average Training Loss: 0.0148
+Epoch [91/200], Validation Loss: 0.0568
+Epoch [92/200], Average Training Loss: 0.0144
+Epoch [92/200], Validation Loss: 0.0592
+Epoch [93/200], Average Training Loss: 0.0146
+Epoch [93/200], Validation Loss: 0.0578
+Epoch [94/200], Average Training Loss: 0.0139
+Epoch [94/200], Validation Loss: 0.0573
+Epoch [95/200], Average Training Loss: 0.0140
+Epoch [95/200], Validation Loss: 0.0570
+Epoch [96/200], Average Training Loss: 0.0144
+Epoch [96/200], Validation Loss: 0.0586
+Epoch [97/200], Average Training Loss: 0.0148
+Epoch [97/200], Validation Loss: 0.0561
+Epoch [98/200], Average Training Loss: 0.0142
+Epoch [98/200], Validation Loss: 0.0565
+Epoch [99/200], Average Training Loss: 0.0140
+Epoch [99/200], Validation Loss: 0.0543
+Epoch [100/200], Average Training Loss: 0.0133
+Epoch [100/200], Validation Loss: 0.0554
+Epoch [101/200], Average Training Loss: 0.0135
+Epoch [101/200], Validation Loss: 0.0561
+Epoch [102/200], Average Training Loss: 0.0127
+Epoch [102/200], Validation Loss: 0.0554
+Epoch [103/200], Average Training Loss: 0.0129
+Epoch [103/200], Validation Loss: 0.0571
+Epoch [104/200], Average Training Loss: 0.0127
+Epoch [104/200], Validation Loss: 0.0561
+Epoch [105/200], Average Training Loss: 0.0133
+Epoch [105/200], Validation Loss: 0.0581
+Epoch [106/200], Average Training Loss: 0.0129
+Epoch [106/200], Validation Loss: 0.0564
+Epoch [107/200], Average Training Loss: 0.0126
+Epoch [107/200], Validation Loss: 0.0559
+Epoch [108/200], Average Training Loss: 0.0123
+Epoch [108/200], Validation Loss: 0.0567
+Epoch [109/200], Average Training Loss: 0.0126
+Epoch [109/200], Validation Loss: 0.0564
+Epoch [110/200], Average Training Loss: 0.0123
+Epoch [110/200], Validation Loss: 0.0550
+Epoch [111/200], Average Training Loss: 0.0124
+Epoch [111/200], Validation Loss: 0.0548
+Epoch [112/200], Average Training Loss: 0.0126
+Epoch [112/200], Validation Loss: 0.0565
+Epoch [113/200], Average Training Loss: 0.0122
+Epoch [113/200], Validation Loss: 0.0544
+Epoch [114/200], Average Training Loss: 0.0123
+Epoch [114/200], Validation Loss: 0.0552
+Epoch [115/200], Average Training Loss: 0.0124
+Epoch [115/200], Validation Loss: 0.0540
+Epoch [116/200], Average Training Loss: 0.0122
+Epoch [116/200], Validation Loss: 0.0551
+Epoch [117/200], Average Training Loss: 0.0116
+Epoch [117/200], Validation Loss: 0.0548
+Epoch [118/200], Average Training Loss: 0.0117
+Epoch [118/200], Validation Loss: 0.0543
+Epoch [119/200], Average Training Loss: 0.0122
+Epoch [119/200], Validation Loss: 0.0539
+Epoch [120/200], Average Training Loss: 0.0116
+Epoch [120/200], Validation Loss: 0.0561
+Epoch [121/200], Average Training Loss: 0.0117
+Epoch [121/200], Validation Loss: 0.0561
+Epoch [122/200], Average Training Loss: 0.0115
+Epoch [122/200], Validation Loss: 0.0558
+Epoch [123/200], Average Training Loss: 0.0113
+Epoch [123/200], Validation Loss: 0.0587
+Epoch [124/200], Average Training Loss: 0.0117
+Epoch [124/200], Validation Loss: 0.0549
+Epoch [125/200], Average Training Loss: 0.0116
+Epoch [125/200], Validation Loss: 0.0541
+Epoch [126/200], Average Training Loss: 0.0122
+Epoch [126/200], Validation Loss: 0.0571
+Epoch [127/200], Average Training Loss: 0.0119
+Epoch [127/200], Validation Loss: 0.0559
+Epoch [128/200], Average Training Loss: 0.0114
+Epoch [128/200], Validation Loss: 0.0555
+Epoch [129/200], Average Training Loss: 0.0121
+Epoch [129/200], Validation Loss: 0.0555
+Epoch [130/200], Average Training Loss: 0.0114
+Epoch [130/200], Validation Loss: 0.0558
+Epoch [131/200], Average Training Loss: 0.0118
+Epoch [131/200], Validation Loss: 0.0540
+Epoch [132/200], Average Training Loss: 0.0130
+Epoch [132/200], Validation Loss: 0.0548
+Epoch [133/200], Average Training Loss: 0.0116
+Epoch [133/200], Validation Loss: 0.0551
+Epoch [134/200], Average Training Loss: 0.0115
+Epoch [134/200], Validation Loss: 0.0568
+Epoch [135/200], Average Training Loss: 0.0116
+Epoch [135/200], Validation Loss: 0.0532
+Epoch [136/200], Average Training Loss: 0.0112
+Epoch [136/200], Validation Loss: 0.0548
+Epoch [137/200], Average Training Loss: 0.0107
+Epoch [137/200], Validation Loss: 0.0547
+Epoch [138/200], Average Training Loss: 0.0109
+Epoch [138/200], Validation Loss: 0.0541
+Epoch [139/200], Average Training Loss: 0.0111
+Epoch [139/200], Validation Loss: 0.0522
+Epoch [140/200], Average Training Loss: 0.0112
+Epoch [140/200], Validation Loss: 0.0535
+Epoch [141/200], Average Training Loss: 0.0109
+Epoch [141/200], Validation Loss: 0.0540
+Epoch [142/200], Average Training Loss: 0.0103
+Epoch [142/200], Validation Loss: 0.0537
+Epoch [143/200], Average Training Loss: 0.0106
+Epoch [143/200], Validation Loss: 0.0527
+Epoch [144/200], Average Training Loss: 0.0100
+Epoch [144/200], Validation Loss: 0.0529
+Epoch [145/200], Average Training Loss: 0.0097
+Epoch [145/200], Validation Loss: 0.0533
+Epoch [146/200], Average Training Loss: 0.0098
+Epoch [146/200], Validation Loss: 0.0530
+Epoch [147/200], Average Training Loss: 0.0098
+Epoch [147/200], Validation Loss: 0.0552
+Epoch [148/200], Average Training Loss: 0.0096
+Epoch [148/200], Validation Loss: 0.0540
+Epoch [149/200], Average Training Loss: 0.0097
+Epoch [149/200], Validation Loss: 0.0544
+Epoch [150/200], Average Training Loss: 0.0099
+Epoch [150/200], Validation Loss: 0.0555
+Epoch [151/200], Average Training Loss: 0.0102
+Epoch [151/200], Validation Loss: 0.0528
+Epoch [152/200], Average Training Loss: 0.0101
+Epoch [152/200], Validation Loss: 0.0548
+Epoch [153/200], Average Training Loss: 0.0097
+Epoch [153/200], Validation Loss: 0.0555
+Epoch [154/200], Average Training Loss: 0.0096
+Epoch [154/200], Validation Loss: 0.0531
+Epoch [155/200], Average Training Loss: 0.0095
+Epoch [155/200], Validation Loss: 0.0529
+Epoch [156/200], Average Training Loss: 0.0094
+Epoch [156/200], Validation Loss: 0.0524
+Epoch [157/200], Average Training Loss: 0.0100
+Epoch [157/200], Validation Loss: 0.0537
+Epoch [158/200], Average Training Loss: 0.0097
+Epoch [158/200], Validation Loss: 0.0544
+Epoch [159/200], Average Training Loss: 0.0093
+Epoch [159/200], Validation Loss: 0.0534
+Early stopping at epoch 159
+Finished Training
+Training with batch_size=16 and learning_rate=1e-05
+Epoch [1/200], Average Training Loss: 0.2932
+Epoch [1/200], Validation Loss: 0.2437
+Epoch [2/200], Average Training Loss: 0.2197
+Epoch [2/200], Validation Loss: 0.1820
+Epoch [3/200], Average Training Loss: 0.1951
+Epoch [3/200], Validation Loss: 0.1624
+Epoch [4/200], Average Training Loss: 0.1814
+Epoch [4/200], Validation Loss: 0.1441
+Epoch [5/200], Average Training Loss: 0.1727
+Epoch [5/200], Validation Loss: 0.1424
+Epoch [6/200], Average Training Loss: 0.1687
+Epoch [6/200], Validation Loss: 0.1316
+Epoch [7/200], Average Training Loss: 0.1615
+Epoch [7/200], Validation Loss: 0.1200
+Epoch [8/200], Average Training Loss: 0.1589
+Epoch [8/200], Validation Loss: 0.1196
+Epoch [9/200], Average Training Loss: 0.1530
+Epoch [9/200], Validation Loss: 0.1134
+Epoch [10/200], Average Training Loss: 0.1505
+Epoch [10/200], Validation Loss: 0.1208
+Epoch [11/200], Average Training Loss: 0.1473
+Epoch [11/200], Validation Loss: 0.1085
+Epoch [12/200], Average Training Loss: 0.1406
+Epoch [12/200], Validation Loss: 0.1072
+Epoch [13/200], Average Training Loss: 0.1391
+Epoch [13/200], Validation Loss: 0.1017
+Epoch [14/200], Average Training Loss: 0.1350
+Epoch [14/200], Validation Loss: 0.1027
+Epoch [15/200], Average Training Loss: 0.1332
+Epoch [15/200], Validation Loss: 0.0999
+Epoch [16/200], Average Training Loss: 0.1273
+Epoch [16/200], Validation Loss: 0.1112
+Epoch [17/200], Average Training Loss: 0.1267
+Epoch [17/200], Validation Loss: 0.1028
+Epoch [18/200], Average Training Loss: 0.1218
+Epoch [18/200], Validation Loss: 0.1002
+Epoch [19/200], Average Training Loss: 0.1192
+Epoch [19/200], Validation Loss: 0.0995
+Epoch [20/200], Average Training Loss: 0.1161
+Epoch [20/200], Validation Loss: 0.1067
+Epoch [21/200], Average Training Loss: 0.1125
+Epoch [21/200], Validation Loss: 0.0993
+Epoch [22/200], Average Training Loss: 0.1080
+Epoch [22/200], Validation Loss: 0.0949
+Epoch [23/200], Average Training Loss: 0.1081
+Epoch [23/200], Validation Loss: 0.0941
+Epoch [24/200], Average Training Loss: 0.1070
+Epoch [24/200], Validation Loss: 0.0960
+Epoch [25/200], Average Training Loss: 0.1067
+Epoch [25/200], Validation Loss: 0.0899
+Epoch [26/200], Average Training Loss: 0.0991
+Epoch [26/200], Validation Loss: 0.0967
+Epoch [27/200], Average Training Loss: 0.0979
+Epoch [27/200], Validation Loss: 0.0975
+Epoch [28/200], Average Training Loss: 0.0967
+Epoch [28/200], Validation Loss: 0.0964
+Epoch [29/200], Average Training Loss: 0.0949
+Epoch [29/200], Validation Loss: 0.0950
+Epoch [30/200], Average Training Loss: 0.0923
+Epoch [30/200], Validation Loss: 0.0919
+Epoch [31/200], Average Training Loss: 0.0922
+Epoch [31/200], Validation Loss: 0.0959
+Epoch [32/200], Average Training Loss: 0.0899
+Epoch [32/200], Validation Loss: 0.0921
+Epoch [33/200], Average Training Loss: 0.0884
+Epoch [33/200], Validation Loss: 0.0945
+Epoch [34/200], Average Training Loss: 0.0842
+Epoch [34/200], Validation Loss: 0.0882
+Epoch [35/200], Average Training Loss: 0.0848
+Epoch [35/200], Validation Loss: 0.0907
+Epoch [36/200], Average Training Loss: 0.0823
+Epoch [36/200], Validation Loss: 0.0918
+Epoch [37/200], Average Training Loss: 0.0814
+Epoch [37/200], Validation Loss: 0.0853
+Epoch [38/200], Average Training Loss: 0.0805
+Epoch [38/200], Validation Loss: 0.0904
+Epoch [39/200], Average Training Loss: 0.0792
+Epoch [39/200], Validation Loss: 0.0860
+Epoch [40/200], Average Training Loss: 0.0790
+Epoch [40/200], Validation Loss: 0.0864
+Epoch [41/200], Average Training Loss: 0.0770
+Epoch [41/200], Validation Loss: 0.0896
+Epoch [42/200], Average Training Loss: 0.0748
+Epoch [42/200], Validation Loss: 0.1012
+Epoch [43/200], Average Training Loss: 0.0752
+Epoch [43/200], Validation Loss: 0.0821
+Epoch [44/200], Average Training Loss: 0.0739
+Epoch [44/200], Validation Loss: 0.0887
+Epoch [45/200], Average Training Loss: 0.0728
+Epoch [45/200], Validation Loss: 0.0872
+Epoch [46/200], Average Training Loss: 0.0731
+Epoch [46/200], Validation Loss: 0.0833
+Epoch [47/200], Average Training Loss: 0.0713
+Epoch [47/200], Validation Loss: 0.0857
+Epoch [48/200], Average Training Loss: 0.0707
+Epoch [48/200], Validation Loss: 0.0865
+Epoch [49/200], Average Training Loss: 0.0681
+Epoch [49/200], Validation Loss: 0.0839
+Epoch [50/200], Average Training Loss: 0.0681
+Epoch [50/200], Validation Loss: 0.0846
+Epoch [51/200], Average Training Loss: 0.0674
+Epoch [51/200], Validation Loss: 0.0891
+Epoch [52/200], Average Training Loss: 0.0679
+Epoch [52/200], Validation Loss: 0.0829
+Epoch [53/200], Average Training Loss: 0.0668
+Epoch [53/200], Validation Loss: 0.0804
+Epoch [54/200], Average Training Loss: 0.0652
+Epoch [54/200], Validation Loss: 0.0899
+Epoch [55/200], Average Training Loss: 0.0627
+Epoch [55/200], Validation Loss: 0.0883
+Epoch [56/200], Average Training Loss: 0.0625
+Epoch [56/200], Validation Loss: 0.0847
+Epoch [57/200], Average Training Loss: 0.0611
+Epoch [57/200], Validation Loss: 0.0875
+Epoch [58/200], Average Training Loss: 0.0637
+Epoch [58/200], Validation Loss: 0.0895
+Epoch [59/200], Average Training Loss: 0.0595
+Epoch [59/200], Validation Loss: 0.0809
+Epoch [60/200], Average Training Loss: 0.0592
+Epoch [60/200], Validation Loss: 0.0884
+Epoch [61/200], Average Training Loss: 0.0591
+Epoch [61/200], Validation Loss: 0.0860
+Epoch [62/200], Average Training Loss: 0.0584
+Epoch [62/200], Validation Loss: 0.0895
+Epoch [63/200], Average Training Loss: 0.0585
+Epoch [63/200], Validation Loss: 0.0828
+Epoch [64/200], Average Training Loss: 0.0558
+Epoch [64/200], Validation Loss: 0.0858
+Epoch [65/200], Average Training Loss: 0.0558
+Epoch [65/200], Validation Loss: 0.0833
+Epoch [66/200], Average Training Loss: 0.0537
+Epoch [66/200], Validation Loss: 0.0826
+Epoch [67/200], Average Training Loss: 0.0537
+Epoch [67/200], Validation Loss: 0.0851
+Epoch [68/200], Average Training Loss: 0.0545
+Epoch [68/200], Validation Loss: 0.0803
+Epoch [69/200], Average Training Loss: 0.0557
+Epoch [69/200], Validation Loss: 0.0822
+Epoch [70/200], Average Training Loss: 0.0535
+Epoch [70/200], Validation Loss: 0.0861
+Epoch [71/200], Average Training Loss: 0.0525
+Epoch [71/200], Validation Loss: 0.0855
+Epoch [72/200], Average Training Loss: 0.0517
+Epoch [72/200], Validation Loss: 0.0827
+Epoch [73/200], Average Training Loss: 0.0521
+Epoch [73/200], Validation Loss: 0.0869
+Epoch [74/200], Average Training Loss: 0.0492
+Epoch [74/200], Validation Loss: 0.0852
+Epoch [75/200], Average Training Loss: 0.0497
+Epoch [75/200], Validation Loss: 0.0856
+Epoch [76/200], Average Training Loss: 0.0487
+Epoch [76/200], Validation Loss: 0.0894
+Epoch [77/200], Average Training Loss: 0.0483
+Epoch [77/200], Validation Loss: 0.0798
+Epoch [78/200], Average Training Loss: 0.0481
+Epoch [78/200], Validation Loss: 0.0838
+Epoch [79/200], Average Training Loss: 0.0459
+Epoch [79/200], Validation Loss: 0.0835
+Epoch [80/200], Average Training Loss: 0.0463
+Epoch [80/200], Validation Loss: 0.0836
+Epoch [81/200], Average Training Loss: 0.0450
+Epoch [81/200], Validation Loss: 0.0848
+Epoch [82/200], Average Training Loss: 0.0454
+Epoch [82/200], Validation Loss: 0.0833
+Epoch [83/200], Average Training Loss: 0.0454
+Epoch [83/200], Validation Loss: 0.0802
+Epoch [84/200], Average Training Loss: 0.0442
+Epoch [84/200], Validation Loss: 0.0797
+Epoch [85/200], Average Training Loss: 0.0436
+Epoch [85/200], Validation Loss: 0.0782
+Epoch [86/200], Average Training Loss: 0.0425
+Epoch [86/200], Validation Loss: 0.0836
+Epoch [87/200], Average Training Loss: 0.0422
+Epoch [87/200], Validation Loss: 0.0824
+Epoch [88/200], Average Training Loss: 0.0417
+Epoch [88/200], Validation Loss: 0.0803
+Epoch [89/200], Average Training Loss: 0.0419
+Epoch [89/200], Validation Loss: 0.0841
+Epoch [90/200], Average Training Loss: 0.0425
+Epoch [90/200], Validation Loss: 0.0781
+Epoch [91/200], Average Training Loss: 0.0404
+Epoch [91/200], Validation Loss: 0.0806
+Epoch [92/200], Average Training Loss: 0.0399
+Epoch [92/200], Validation Loss: 0.0781
+Epoch [93/200], Average Training Loss: 0.0397
+Epoch [93/200], Validation Loss: 0.0793
+Epoch [94/200], Average Training Loss: 0.0388
+Epoch [94/200], Validation Loss: 0.0861
+Epoch [95/200], Average Training Loss: 0.0387
+Epoch [95/200], Validation Loss: 0.0797
+Epoch [96/200], Average Training Loss: 0.0376
+Epoch [96/200], Validation Loss: 0.0806
+Epoch [97/200], Average Training Loss: 0.0383
+Epoch [97/200], Validation Loss: 0.0834
+Epoch [98/200], Average Training Loss: 0.0377
+Epoch [98/200], Validation Loss: 0.0815
+Epoch [99/200], Average Training Loss: 0.0371
+Epoch [99/200], Validation Loss: 0.0778
+Epoch [100/200], Average Training Loss: 0.0357
+Epoch [100/200], Validation Loss: 0.0776
+Epoch [101/200], Average Training Loss: 0.0363
+Epoch [101/200], Validation Loss: 0.0834
+Epoch [102/200], Average Training Loss: 0.0361
+Epoch [102/200], Validation Loss: 0.0823
+Epoch [103/200], Average Training Loss: 0.0359
+Epoch [103/200], Validation Loss: 0.0791
+Epoch [104/200], Average Training Loss: 0.0366
+Epoch [104/200], Validation Loss: 0.0810
+Epoch [105/200], Average Training Loss: 0.0345
+Epoch [105/200], Validation Loss: 0.0779
+Epoch [106/200], Average Training Loss: 0.0345
+Epoch [106/200], Validation Loss: 0.0783
+Epoch [107/200], Average Training Loss: 0.0341
+Epoch [107/200], Validation Loss: 0.0785
+Epoch [108/200], Average Training Loss: 0.0347
+Epoch [108/200], Validation Loss: 0.0781
+Epoch [109/200], Average Training Loss: 0.0343
+Epoch [109/200], Validation Loss: 0.0798
+Epoch [110/200], Average Training Loss: 0.0334
+Epoch [110/200], Validation Loss: 0.0825
+Epoch [111/200], Average Training Loss: 0.0329
+Epoch [111/200], Validation Loss: 0.0770
+Epoch [112/200], Average Training Loss: 0.0326
+Epoch [112/200], Validation Loss: 0.0775
+Epoch [113/200], Average Training Loss: 0.0317
+Epoch [113/200], Validation Loss: 0.0776
+Epoch [114/200], Average Training Loss: 0.0318
+Epoch [114/200], Validation Loss: 0.0800
+Epoch [115/200], Average Training Loss: 0.0319
+Epoch [115/200], Validation Loss: 0.0783
+Epoch [116/200], Average Training Loss: 0.0326
+Epoch [116/200], Validation Loss: 0.0783
+Epoch [117/200], Average Training Loss: 0.0314
+Epoch [117/200], Validation Loss: 0.0762
+Epoch [118/200], Average Training Loss: 0.0310
+Epoch [118/200], Validation Loss: 0.0742
+Epoch [119/200], Average Training Loss: 0.0309
+Epoch [119/200], Validation Loss: 0.0792
+Epoch [120/200], Average Training Loss: 0.0304
+Epoch [120/200], Validation Loss: 0.0848
+Epoch [121/200], Average Training Loss: 0.0318
+Epoch [121/200], Validation Loss: 0.0739
+Epoch [122/200], Average Training Loss: 0.0305
+Epoch [122/200], Validation Loss: 0.0761
+Epoch [123/200], Average Training Loss: 0.0304
+Epoch [123/200], Validation Loss: 0.0752
+Epoch [124/200], Average Training Loss: 0.0301
+Epoch [124/200], Validation Loss: 0.0773
+Epoch [125/200], Average Training Loss: 0.0297
+Epoch [125/200], Validation Loss: 0.0768
+Epoch [126/200], Average Training Loss: 0.0295
+Epoch [126/200], Validation Loss: 0.0772
+Epoch [127/200], Average Training Loss: 0.0294
+Epoch [127/200], Validation Loss: 0.0756
+Epoch [128/200], Average Training Loss: 0.0286
+Epoch [128/200], Validation Loss: 0.0760
+Epoch [129/200], Average Training Loss: 0.0288
+Epoch [129/200], Validation Loss: 0.0757
+Epoch [130/200], Average Training Loss: 0.0273
+Epoch [130/200], Validation Loss: 0.0738
+Epoch [131/200], Average Training Loss: 0.0280
+Epoch [131/200], Validation Loss: 0.0757
+Epoch [132/200], Average Training Loss: 0.0275
+Epoch [132/200], Validation Loss: 0.0758
+Epoch [133/200], Average Training Loss: 0.0271
+Epoch [133/200], Validation Loss: 0.0759
+Epoch [134/200], Average Training Loss: 0.0272
+Epoch [134/200], Validation Loss: 0.0766
+Epoch [135/200], Average Training Loss: 0.0278
+Epoch [135/200], Validation Loss: 0.0749
+Epoch [136/200], Average Training Loss: 0.0268
+Epoch [136/200], Validation Loss: 0.0774
+Epoch [137/200], Average Training Loss: 0.0271
+Epoch [137/200], Validation Loss: 0.0770
+Epoch [138/200], Average Training Loss: 0.0260
+Epoch [138/200], Validation Loss: 0.0787
+Epoch [139/200], Average Training Loss: 0.0257
+Epoch [139/200], Validation Loss: 0.0754
+Epoch [140/200], Average Training Loss: 0.0268
+Epoch [140/200], Validation Loss: 0.0726
+Epoch [141/200], Average Training Loss: 0.0269
+Epoch [141/200], Validation Loss: 0.0791
+Epoch [142/200], Average Training Loss: 0.0261
+Epoch [142/200], Validation Loss: 0.0731
+Epoch [143/200], Average Training Loss: 0.0260
+Epoch [143/200], Validation Loss: 0.0777
+Epoch [144/200], Average Training Loss: 0.0262
+Epoch [144/200], Validation Loss: 0.0778
+Epoch [145/200], Average Training Loss: 0.0265
+Epoch [145/200], Validation Loss: 0.0796
+Epoch [146/200], Average Training Loss: 0.0261
+Epoch [146/200], Validation Loss: 0.0743
+Epoch [147/200], Average Training Loss: 0.0257
+Epoch [147/200], Validation Loss: 0.0732
+Epoch [148/200], Average Training Loss: 0.0247
+Epoch [148/200], Validation Loss: 0.0737
+Epoch [149/200], Average Training Loss: 0.0256
+Epoch [149/200], Validation Loss: 0.0741
+Epoch [150/200], Average Training Loss: 0.0252
+Epoch [150/200], Validation Loss: 0.0753
+Epoch [151/200], Average Training Loss: 0.0246
+Epoch [151/200], Validation Loss: 0.0778
+Epoch [152/200], Average Training Loss: 0.0244
+Epoch [152/200], Validation Loss: 0.0741
+Epoch [153/200], Average Training Loss: 0.0249
+Epoch [153/200], Validation Loss: 0.0760
+Epoch [154/200], Average Training Loss: 0.0236
+Epoch [154/200], Validation Loss: 0.0732
+Epoch [155/200], Average Training Loss: 0.0240
+Epoch [155/200], Validation Loss: 0.0742
+Epoch [156/200], Average Training Loss: 0.0242
+Epoch [156/200], Validation Loss: 0.0742
+Epoch [157/200], Average Training Loss: 0.0242
+Epoch [157/200], Validation Loss: 0.0723
+Epoch [158/200], Average Training Loss: 0.0240
+Epoch [158/200], Validation Loss: 0.0727
+Epoch [159/200], Average Training Loss: 0.0234
+Epoch [159/200], Validation Loss: 0.0735
+Epoch [160/200], Average Training Loss: 0.0235
+Epoch [160/200], Validation Loss: 0.0727
+Epoch [161/200], Average Training Loss: 0.0226
+Epoch [161/200], Validation Loss: 0.0742
+Epoch [162/200], Average Training Loss: 0.0226
+Epoch [162/200], Validation Loss: 0.0736
+Epoch [163/200], Average Training Loss: 0.0226
+Epoch [163/200], Validation Loss: 0.0725
+Epoch [164/200], Average Training Loss: 0.0232
+Epoch [164/200], Validation Loss: 0.0763
+Epoch [165/200], Average Training Loss: 0.0226
+Epoch [165/200], Validation Loss: 0.0750
+Epoch [166/200], Average Training Loss: 0.0225
+Epoch [166/200], Validation Loss: 0.0746
+Epoch [167/200], Average Training Loss: 0.0232
+Epoch [167/200], Validation Loss: 0.0728
+Epoch [168/200], Average Training Loss: 0.0220
+Epoch [168/200], Validation Loss: 0.0716
+Epoch [169/200], Average Training Loss: 0.0220
+Epoch [169/200], Validation Loss: 0.0728
+Epoch [170/200], Average Training Loss: 0.0218
+Epoch [170/200], Validation Loss: 0.0720
+Epoch [171/200], Average Training Loss: 0.0215
+Epoch [171/200], Validation Loss: 0.0722
+Epoch [172/200], Average Training Loss: 0.0215
+Epoch [172/200], Validation Loss: 0.0715
+Epoch [173/200], Average Training Loss: 0.0220
+Epoch [173/200], Validation Loss: 0.0732
+Epoch [174/200], Average Training Loss: 0.0214
+Epoch [174/200], Validation Loss: 0.0746
+Epoch [175/200], Average Training Loss: 0.0211
+Epoch [175/200], Validation Loss: 0.0715
+Epoch [176/200], Average Training Loss: 0.0207
+Epoch [176/200], Validation Loss: 0.0749
+Epoch [177/200], Average Training Loss: 0.0205
+Epoch [177/200], Validation Loss: 0.0710
+Epoch [178/200], Average Training Loss: 0.0207
+Epoch [178/200], Validation Loss: 0.0725
+Epoch [179/200], Average Training Loss: 0.0211
+Epoch [179/200], Validation Loss: 0.0709
+Epoch [180/200], Average Training Loss: 0.0204
+Epoch [180/200], Validation Loss: 0.0687
+Epoch [181/200], Average Training Loss: 0.0205
+Epoch [181/200], Validation Loss: 0.0710
+Epoch [182/200], Average Training Loss: 0.0206
+Epoch [182/200], Validation Loss: 0.0704
+Epoch [183/200], Average Training Loss: 0.0204
+Epoch [183/200], Validation Loss: 0.0726
+Epoch [184/200], Average Training Loss: 0.0204
+Epoch [184/200], Validation Loss: 0.0728
+Epoch [185/200], Average Training Loss: 0.0200
+Epoch [185/200], Validation Loss: 0.0698
+Epoch [186/200], Average Training Loss: 0.0196
+Epoch [186/200], Validation Loss: 0.0726
+Epoch [187/200], Average Training Loss: 0.0193
+Epoch [187/200], Validation Loss: 0.0720
+Epoch [188/200], Average Training Loss: 0.0207
+Epoch [188/200], Validation Loss: 0.0736
+Epoch [189/200], Average Training Loss: 0.0202
+Epoch [189/200], Validation Loss: 0.0705
+Epoch [190/200], Average Training Loss: 0.0190
+Epoch [190/200], Validation Loss: 0.0733
+Epoch [191/200], Average Training Loss: 0.0191
+Epoch [191/200], Validation Loss: 0.0744
+Epoch [192/200], Average Training Loss: 0.0189
+Epoch [192/200], Validation Loss: 0.0700
+Epoch [193/200], Average Training Loss: 0.0190
+Epoch [193/200], Validation Loss: 0.0763
+Epoch [194/200], Average Training Loss: 0.0192
+Epoch [194/200], Validation Loss: 0.0718
+Epoch [195/200], Average Training Loss: 0.0186
+Epoch [195/200], Validation Loss: 0.0696
+Epoch [196/200], Average Training Loss: 0.0184
+Epoch [196/200], Validation Loss: 0.0716
+Epoch [197/200], Average Training Loss: 0.0185
+Epoch [197/200], Validation Loss: 0.0699
+Epoch [198/200], Average Training Loss: 0.0185
+Epoch [198/200], Validation Loss: 0.0715
+Epoch [199/200], Average Training Loss: 0.0182
+Epoch [199/200], Validation Loss: 0.0687
+Epoch [200/200], Average Training Loss: 0.0176
+Epoch [200/200], Validation Loss: 0.0706
+Early stopping at epoch 200
+Finished Training
+Training with batch_size=16 and learning_rate=0.0001
+Epoch [1/200], Average Training Loss: 0.2222
+Epoch [1/200], Validation Loss: 0.1557
+Epoch [2/200], Average Training Loss: 0.1799
+Epoch [2/200], Validation Loss: 0.1440
+Epoch [3/200], Average Training Loss: 0.1668
+Epoch [3/200], Validation Loss: 0.1251
+Epoch [4/200], Average Training Loss: 0.1570
+Epoch [4/200], Validation Loss: 0.1153
+Epoch [5/200], Average Training Loss: 0.1525
+Epoch [5/200], Validation Loss: 0.1196
+Epoch [6/200], Average Training Loss: 0.1482
+Epoch [6/200], Validation Loss: 0.1083
+Epoch [7/200], Average Training Loss: 0.1388
+Epoch [7/200], Validation Loss: 0.0950
+Epoch [8/200], Average Training Loss: 0.1345
+Epoch [8/200], Validation Loss: 0.1008
+Epoch [9/200], Average Training Loss: 0.1280
+Epoch [9/200], Validation Loss: 0.0902
+Epoch [10/200], Average Training Loss: 0.1268
+Epoch [10/200], Validation Loss: 0.1037
+Epoch [11/200], Average Training Loss: 0.1195
+Epoch [11/200], Validation Loss: 0.0888
+Epoch [12/200], Average Training Loss: 0.1136
+Epoch [12/200], Validation Loss: 0.0893
+Epoch [13/200], Average Training Loss: 0.1080
+Epoch [13/200], Validation Loss: 0.0805
+Epoch [14/200], Average Training Loss: 0.0987
+Epoch [14/200], Validation Loss: 0.0774
+Epoch [15/200], Average Training Loss: 0.0974
+Epoch [15/200], Validation Loss: 0.0860
+Epoch [16/200], Average Training Loss: 0.0900
+Epoch [16/200], Validation Loss: 0.0736
+Epoch [17/200], Average Training Loss: 0.0843
+Epoch [17/200], Validation Loss: 0.0799
+Epoch [18/200], Average Training Loss: 0.0819
+Epoch [18/200], Validation Loss: 0.0743
+Epoch [19/200], Average Training Loss: 0.0783
+Epoch [19/200], Validation Loss: 0.0740
+Epoch [20/200], Average Training Loss: 0.0732
+Epoch [20/200], Validation Loss: 0.0680
+Epoch [21/200], Average Training Loss: 0.0722
+Epoch [21/200], Validation Loss: 0.0769
+Epoch [22/200], Average Training Loss: 0.0657
+Epoch [22/200], Validation Loss: 0.0846
+Epoch [23/200], Average Training Loss: 0.0651
+Epoch [23/200], Validation Loss: 0.0723
+Epoch [24/200], Average Training Loss: 0.0603
+Epoch [24/200], Validation Loss: 0.0635
+Epoch [25/200], Average Training Loss: 0.0589
+Epoch [25/200], Validation Loss: 0.0642
+Epoch [26/200], Average Training Loss: 0.0539
+Epoch [26/200], Validation Loss: 0.0723
+Epoch [27/200], Average Training Loss: 0.0529
+Epoch [27/200], Validation Loss: 0.0689
+Epoch [28/200], Average Training Loss: 0.0502
+Epoch [28/200], Validation Loss: 0.0665
+Epoch [29/200], Average Training Loss: 0.0463
+Epoch [29/200], Validation Loss: 0.0628
+Epoch [30/200], Average Training Loss: 0.0483
+Epoch [30/200], Validation Loss: 0.0683
+Epoch [31/200], Average Training Loss: 0.0414
+Epoch [31/200], Validation Loss: 0.0619
+Epoch [32/200], Average Training Loss: 0.0421
+Epoch [32/200], Validation Loss: 0.0705
+Epoch [33/200], Average Training Loss: 0.0418
+Epoch [33/200], Validation Loss: 0.0669
+Epoch [34/200], Average Training Loss: 0.0389
+Epoch [34/200], Validation Loss: 0.0593
+Epoch [35/200], Average Training Loss: 0.0379
+Epoch [35/200], Validation Loss: 0.0625
+Epoch [36/200], Average Training Loss: 0.0358
+Epoch [36/200], Validation Loss: 0.0603
+Epoch [37/200], Average Training Loss: 0.0335
+Epoch [37/200], Validation Loss: 0.0599
+Epoch [38/200], Average Training Loss: 0.0307
+Epoch [38/200], Validation Loss: 0.0597
+Epoch [39/200], Average Training Loss: 0.0314
+Epoch [39/200], Validation Loss: 0.0574
+Epoch [40/200], Average Training Loss: 0.0286
+Epoch [40/200], Validation Loss: 0.0607
+Epoch [41/200], Average Training Loss: 0.0301
+Epoch [41/200], Validation Loss: 0.0611
+Epoch [42/200], Average Training Loss: 0.0289
+Epoch [42/200], Validation Loss: 0.0600
+Epoch [43/200], Average Training Loss: 0.0275
+Epoch [43/200], Validation Loss: 0.0565
+Epoch [44/200], Average Training Loss: 0.0256
+Epoch [44/200], Validation Loss: 0.0541
+Epoch [45/200], Average Training Loss: 0.0236
+Epoch [45/200], Validation Loss: 0.0546
+Epoch [46/200], Average Training Loss: 0.0250
+Epoch [46/200], Validation Loss: 0.0570
+Epoch [47/200], Average Training Loss: 0.0243
+Epoch [47/200], Validation Loss: 0.0566
+Epoch [48/200], Average Training Loss: 0.0237
+Epoch [48/200], Validation Loss: 0.0547
+Epoch [49/200], Average Training Loss: 0.0216
+Epoch [49/200], Validation Loss: 0.0561
+Epoch [50/200], Average Training Loss: 0.0222
+Epoch [50/200], Validation Loss: 0.0551
+Epoch [51/200], Average Training Loss: 0.0219
+Epoch [51/200], Validation Loss: 0.0540
+Epoch [52/200], Average Training Loss: 0.0223
+Epoch [52/200], Validation Loss: 0.0546
+Epoch [53/200], Average Training Loss: 0.0229
+Epoch [53/200], Validation Loss: 0.0554
+Epoch [54/200], Average Training Loss: 0.0199
+Epoch [54/200], Validation Loss: 0.0550
+Epoch [55/200], Average Training Loss: 0.0194
+Epoch [55/200], Validation Loss: 0.0533
+Epoch [56/200], Average Training Loss: 0.0196
+Epoch [56/200], Validation Loss: 0.0515
+Epoch [57/200], Average Training Loss: 0.0186
+Epoch [57/200], Validation Loss: 0.0551
+Epoch [58/200], Average Training Loss: 0.0182
+Epoch [58/200], Validation Loss: 0.0534
+Epoch [59/200], Average Training Loss: 0.0180
+Epoch [59/200], Validation Loss: 0.0526
+Epoch [60/200], Average Training Loss: 0.0172
+Epoch [60/200], Validation Loss: 0.0558
+Epoch [61/200], Average Training Loss: 0.0175
+Epoch [61/200], Validation Loss: 0.0518
+Epoch [62/200], Average Training Loss: 0.0172
+Epoch [62/200], Validation Loss: 0.0523
+Epoch [63/200], Average Training Loss: 0.0164
+Epoch [63/200], Validation Loss: 0.0532
+Epoch [64/200], Average Training Loss: 0.0157
+Epoch [64/200], Validation Loss: 0.0520
+Epoch [65/200], Average Training Loss: 0.0152
+Epoch [65/200], Validation Loss: 0.0507
+Epoch [66/200], Average Training Loss: 0.0158
+Epoch [66/200], Validation Loss: 0.0529
+Epoch [67/200], Average Training Loss: 0.0156
+Epoch [67/200], Validation Loss: 0.0528
+Epoch [68/200], Average Training Loss: 0.0148
+Epoch [68/200], Validation Loss: 0.0505
+Epoch [69/200], Average Training Loss: 0.0154
+Epoch [69/200], Validation Loss: 0.0517
+Epoch [70/200], Average Training Loss: 0.0148
+Epoch [70/200], Validation Loss: 0.0513
+Epoch [71/200], Average Training Loss: 0.0148
+Epoch [71/200], Validation Loss: 0.0524
+Epoch [72/200], Average Training Loss: 0.0151
+Epoch [72/200], Validation Loss: 0.0520
+Epoch [73/200], Average Training Loss: 0.0147
+Epoch [73/200], Validation Loss: 0.0514
+Epoch [74/200], Average Training Loss: 0.0144
+Epoch [74/200], Validation Loss: 0.0513
+Epoch [75/200], Average Training Loss: 0.0139
+Epoch [75/200], Validation Loss: 0.0507
+Epoch [76/200], Average Training Loss: 0.0137
+Epoch [76/200], Validation Loss: 0.0525
+Epoch [77/200], Average Training Loss: 0.0137
+Epoch [77/200], Validation Loss: 0.0502
+Epoch [78/200], Average Training Loss: 0.0156
+Epoch [78/200], Validation Loss: 0.0507
+Epoch [79/200], Average Training Loss: 0.0143
+Epoch [79/200], Validation Loss: 0.0494
+Epoch [80/200], Average Training Loss: 0.0135
+Epoch [80/200], Validation Loss: 0.0496
+Epoch [81/200], Average Training Loss: 0.0131
+Epoch [81/200], Validation Loss: 0.0486
+Epoch [82/200], Average Training Loss: 0.0132
+Epoch [82/200], Validation Loss: 0.0510
+Epoch [83/200], Average Training Loss: 0.0135
+Epoch [83/200], Validation Loss: 0.0506
+Epoch [84/200], Average Training Loss: 0.0133
+Epoch [84/200], Validation Loss: 0.0510
+Epoch [85/200], Average Training Loss: 0.0129
+Epoch [85/200], Validation Loss: 0.0521
+Epoch [86/200], Average Training Loss: 0.0127
+Epoch [86/200], Validation Loss: 0.0499
+Epoch [87/200], Average Training Loss: 0.0120
+Epoch [87/200], Validation Loss: 0.0502
+Epoch [88/200], Average Training Loss: 0.0121
+Epoch [88/200], Validation Loss: 0.0521
+Epoch [89/200], Average Training Loss: 0.0132
+Epoch [89/200], Validation Loss: 0.0500
+Epoch [90/200], Average Training Loss: 0.0119
+Epoch [90/200], Validation Loss: 0.0525
+Epoch [91/200], Average Training Loss: 0.0123
+Epoch [91/200], Validation Loss: 0.0501
+Epoch [92/200], Average Training Loss: 0.0117
+Epoch [92/200], Validation Loss: 0.0485
+Epoch [93/200], Average Training Loss: 0.0116
+Epoch [93/200], Validation Loss: 0.0483
+Epoch [94/200], Average Training Loss: 0.0114
+Epoch [94/200], Validation Loss: 0.0501
+Epoch [95/200], Average Training Loss: 0.0125
+Epoch [95/200], Validation Loss: 0.0523
+Epoch [96/200], Average Training Loss: 0.0118
+Epoch [96/200], Validation Loss: 0.0518
+Epoch [97/200], Average Training Loss: 0.0119
+Epoch [97/200], Validation Loss: 0.0501
+Epoch [98/200], Average Training Loss: 0.0113
+Epoch [98/200], Validation Loss: 0.0504
+Epoch [99/200], Average Training Loss: 0.0109
+Epoch [99/200], Validation Loss: 0.0515
+Epoch [100/200], Average Training Loss: 0.0111
+Epoch [100/200], Validation Loss: 0.0500
+Epoch [101/200], Average Training Loss: 0.0106
+Epoch [101/200], Validation Loss: 0.0504
+Epoch [102/200], Average Training Loss: 0.0105
+Epoch [102/200], Validation Loss: 0.0506
+Epoch [103/200], Average Training Loss: 0.0104
+Epoch [103/200], Validation Loss: 0.0510
+Epoch [104/200], Average Training Loss: 0.0105
+Epoch [104/200], Validation Loss: 0.0500
+Epoch [105/200], Average Training Loss: 0.0105
+Epoch [105/200], Validation Loss: 0.0475
+Epoch [106/200], Average Training Loss: 0.0103
+Epoch [106/200], Validation Loss: 0.0491
+Epoch [107/200], Average Training Loss: 0.0101
+Epoch [107/200], Validation Loss: 0.0502
+Epoch [108/200], Average Training Loss: 0.0099
+Epoch [108/200], Validation Loss: 0.0501
+Epoch [109/200], Average Training Loss: 0.0099
+Epoch [109/200], Validation Loss: 0.0474
+Epoch [110/200], Average Training Loss: 0.0101
+Epoch [110/200], Validation Loss: 0.0496
+Epoch [111/200], Average Training Loss: 0.0096
+Epoch [111/200], Validation Loss: 0.0523
+Epoch [112/200], Average Training Loss: 0.0097
+Epoch [112/200], Validation Loss: 0.0483
+Epoch [113/200], Average Training Loss: 0.0097
+Epoch [113/200], Validation Loss: 0.0498
+Epoch [114/200], Average Training Loss: 0.0098
+Epoch [114/200], Validation Loss: 0.0489
+Epoch [115/200], Average Training Loss: 0.0098
+Epoch [115/200], Validation Loss: 0.0477
+Epoch [116/200], Average Training Loss: 0.0097
+Epoch [116/200], Validation Loss: 0.0477
+Epoch [117/200], Average Training Loss: 0.0101
+Epoch [117/200], Validation Loss: 0.0488
+Epoch [118/200], Average Training Loss: 0.0099
+Epoch [118/200], Validation Loss: 0.0509
+Epoch [119/200], Average Training Loss: 0.0098
+Epoch [119/200], Validation Loss: 0.0494
+Epoch [120/200], Average Training Loss: 0.0098
+Epoch [120/200], Validation Loss: 0.0485
+Epoch [121/200], Average Training Loss: 0.0094
+Epoch [121/200], Validation Loss: 0.0496
+Epoch [122/200], Average Training Loss: 0.0092
+Epoch [122/200], Validation Loss: 0.0513
+Epoch [123/200], Average Training Loss: 0.0092
+Epoch [123/200], Validation Loss: 0.0487
+Epoch [124/200], Average Training Loss: 0.0092
+Epoch [124/200], Validation Loss: 0.0501
+Epoch [125/200], Average Training Loss: 0.0089
+Epoch [125/200], Validation Loss: 0.0480
+Epoch [126/200], Average Training Loss: 0.0088
+Epoch [126/200], Validation Loss: 0.0476
+Epoch [127/200], Average Training Loss: 0.0088
+Epoch [127/200], Validation Loss: 0.0485
+Epoch [128/200], Average Training Loss: 0.0091
+Epoch [128/200], Validation Loss: 0.0505
+Epoch [129/200], Average Training Loss: 0.0092
+Epoch [129/200], Validation Loss: 0.0521
+Early stopping at epoch 129
+Finished Training
+Training with batch_size=16 and learning_rate=0.001
+Epoch [1/200], Average Training Loss: 0.2511
+Epoch [1/200], Validation Loss: 0.1899
+Epoch [2/200], Average Training Loss: 0.1978
+Epoch [2/200], Validation Loss: 0.1529
+Epoch [3/200], Average Training Loss: 0.1786
+Epoch [3/200], Validation Loss: 0.1329
+Epoch [4/200], Average Training Loss: 0.1673
+Epoch [4/200], Validation Loss: 0.1328
+Epoch [5/200], Average Training Loss: 0.1658
+Epoch [5/200], Validation Loss: 0.1662
+Epoch [6/200], Average Training Loss: 0.1634
+Epoch [6/200], Validation Loss: 0.1428
+Epoch [7/200], Average Training Loss: 0.1607
+Epoch [7/200], Validation Loss: 0.1112
+Epoch [8/200], Average Training Loss: 0.1558
+Epoch [8/200], Validation Loss: 0.1054
+Epoch [9/200], Average Training Loss: 0.1471
+Epoch [9/200], Validation Loss: 0.1237
+Epoch [10/200], Average Training Loss: 0.1522
+Epoch [10/200], Validation Loss: 0.1145
+Epoch [11/200], Average Training Loss: 0.1436
+Epoch [11/200], Validation Loss: 0.1152
+Epoch [12/200], Average Training Loss: 0.1399
+Epoch [12/200], Validation Loss: 0.1018
+Epoch [13/200], Average Training Loss: 0.1397
+Epoch [13/200], Validation Loss: 0.1140
+Epoch [14/200], Average Training Loss: 0.1358
+Epoch [14/200], Validation Loss: 0.0992
+Epoch [15/200], Average Training Loss: 0.1333
+Epoch [15/200], Validation Loss: 0.1000
+Epoch [16/200], Average Training Loss: 0.1307
+Epoch [16/200], Validation Loss: 0.1151
+Epoch [17/200], Average Training Loss: 0.1254
+Epoch [17/200], Validation Loss: 0.0945
+Epoch [18/200], Average Training Loss: 0.1195
+Epoch [18/200], Validation Loss: 0.1067
+Epoch [19/200], Average Training Loss: 0.1266
+Epoch [19/200], Validation Loss: 0.0976
+Epoch [20/200], Average Training Loss: 0.1110
+Epoch [20/200], Validation Loss: 0.0917
+Epoch [21/200], Average Training Loss: 0.1044
+Epoch [21/200], Validation Loss: 0.0886
+Epoch [22/200], Average Training Loss: 0.1028
+Epoch [22/200], Validation Loss: 0.0878
+Epoch [23/200], Average Training Loss: 0.0957
+Epoch [23/200], Validation Loss: 0.0845
+Epoch [24/200], Average Training Loss: 0.0922
+Epoch [24/200], Validation Loss: 0.0824
+Epoch [25/200], Average Training Loss: 0.0921
+Epoch [25/200], Validation Loss: 0.0828
+Epoch [26/200], Average Training Loss: 0.0867
+Epoch [26/200], Validation Loss: 0.0799
+Epoch [27/200], Average Training Loss: 0.0806
+Epoch [27/200], Validation Loss: 0.0809
+Epoch [28/200], Average Training Loss: 0.0778
+Epoch [28/200], Validation Loss: 0.0792
+Epoch [29/200], Average Training Loss: 0.0774
+Epoch [29/200], Validation Loss: 0.0946
+Epoch [30/200], Average Training Loss: 0.0752
+Epoch [30/200], Validation Loss: 0.0801
+Epoch [31/200], Average Training Loss: 0.0707
+Epoch [31/200], Validation Loss: 0.0870
+Epoch [32/200], Average Training Loss: 0.0690
+Epoch [32/200], Validation Loss: 0.0765
+Epoch [33/200], Average Training Loss: 0.0625
+Epoch [33/200], Validation Loss: 0.0757
+Epoch [34/200], Average Training Loss: 0.0590
+Epoch [34/200], Validation Loss: 0.0732
+Epoch [35/200], Average Training Loss: 0.0602
+Epoch [35/200], Validation Loss: 0.0749
+Epoch [36/200], Average Training Loss: 0.0554
+Epoch [36/200], Validation Loss: 0.0772
+Epoch [37/200], Average Training Loss: 0.0575
+Epoch [37/200], Validation Loss: 0.0789
+Epoch [38/200], Average Training Loss: 0.0536
+Epoch [38/200], Validation Loss: 0.0747
+Epoch [39/200], Average Training Loss: 0.0516
+Epoch [39/200], Validation Loss: 0.0751
+Epoch [40/200], Average Training Loss: 0.0518
+Epoch [40/200], Validation Loss: 0.0796
+Epoch [41/200], Average Training Loss: 0.0507
+Epoch [41/200], Validation Loss: 0.0751
+Epoch [42/200], Average Training Loss: 0.0476
+Epoch [42/200], Validation Loss: 0.0793
+Epoch [43/200], Average Training Loss: 0.0465
+Epoch [43/200], Validation Loss: 0.0782
+Epoch [44/200], Average Training Loss: 0.0433
+Epoch [44/200], Validation Loss: 0.0735
+Epoch [45/200], Average Training Loss: 0.0418
+Epoch [45/200], Validation Loss: 0.0739
+Epoch [46/200], Average Training Loss: 0.0409
+Epoch [46/200], Validation Loss: 0.0750
+Epoch [47/200], Average Training Loss: 0.0388
+Epoch [47/200], Validation Loss: 0.0703
+Epoch [48/200], Average Training Loss: 0.0379
+Epoch [48/200], Validation Loss: 0.0736
+Epoch [49/200], Average Training Loss: 0.0380
+Epoch [49/200], Validation Loss: 0.0716
+Epoch [50/200], Average Training Loss: 0.0363
+Epoch [50/200], Validation Loss: 0.0731
+Epoch [51/200], Average Training Loss: 0.0342
+Epoch [51/200], Validation Loss: 0.0709
+Epoch [52/200], Average Training Loss: 0.0346
+Epoch [52/200], Validation Loss: 0.0728
+Epoch [53/200], Average Training Loss: 0.0333
+Epoch [53/200], Validation Loss: 0.0735
+Epoch [54/200], Average Training Loss: 0.0317
+Epoch [54/200], Validation Loss: 0.0701
+Epoch [55/200], Average Training Loss: 0.0315
+Epoch [55/200], Validation Loss: 0.0696
+Epoch [56/200], Average Training Loss: 0.0314
+Epoch [56/200], Validation Loss: 0.0728
+Epoch [57/200], Average Training Loss: 0.0298
+Epoch [57/200], Validation Loss: 0.0678
+Epoch [58/200], Average Training Loss: 0.0307
+Epoch [58/200], Validation Loss: 0.0708
+Epoch [59/200], Average Training Loss: 0.0307
+Epoch [59/200], Validation Loss: 0.0714
+Epoch [60/200], Average Training Loss: 0.0273
+Epoch [60/200], Validation Loss: 0.0688
+Epoch [61/200], Average Training Loss: 0.0266
+Epoch [61/200], Validation Loss: 0.0684
+Epoch [62/200], Average Training Loss: 0.0269
+Epoch [62/200], Validation Loss: 0.0711
+Epoch [63/200], Average Training Loss: 0.0252
+Epoch [63/200], Validation Loss: 0.0662
+Epoch [64/200], Average Training Loss: 0.0277
+Epoch [64/200], Validation Loss: 0.0659
+Epoch [65/200], Average Training Loss: 0.0257
+Epoch [65/200], Validation Loss: 0.0703
+Epoch [66/200], Average Training Loss: 0.0241
+Epoch [66/200], Validation Loss: 0.0655
+Epoch [67/200], Average Training Loss: 0.0232
+Epoch [67/200], Validation Loss: 0.0667
+Epoch [68/200], Average Training Loss: 0.0237
+Epoch [68/200], Validation Loss: 0.0649
+Epoch [69/200], Average Training Loss: 0.0236
+Epoch [69/200], Validation Loss: 0.0669
+Epoch [70/200], Average Training Loss: 0.0222
+Epoch [70/200], Validation Loss: 0.0671
+Epoch [71/200], Average Training Loss: 0.0226
+Epoch [71/200], Validation Loss: 0.0659
+Epoch [72/200], Average Training Loss: 0.0220
+Epoch [72/200], Validation Loss: 0.0651
+Epoch [73/200], Average Training Loss: 0.0226
+Epoch [73/200], Validation Loss: 0.0671
+Epoch [74/200], Average Training Loss: 0.0214
+Epoch [74/200], Validation Loss: 0.0650
+Epoch [75/200], Average Training Loss: 0.0201
+Epoch [75/200], Validation Loss: 0.0645
+Epoch [76/200], Average Training Loss: 0.0207
+Epoch [76/200], Validation Loss: 0.0667
+Epoch [77/200], Average Training Loss: 0.0197
+Epoch [77/200], Validation Loss: 0.0653
+Epoch [78/200], Average Training Loss: 0.0198
+Epoch [78/200], Validation Loss: 0.0660
+Epoch [79/200], Average Training Loss: 0.0202
+Epoch [79/200], Validation Loss: 0.0645
+Epoch [80/200], Average Training Loss: 0.0200
+Epoch [80/200], Validation Loss: 0.0635
+Epoch [81/200], Average Training Loss: 0.0199
+Epoch [81/200], Validation Loss: 0.0641
+Epoch [82/200], Average Training Loss: 0.0197
+Epoch [82/200], Validation Loss: 0.0664
+Epoch [83/200], Average Training Loss: 0.0193
+Epoch [83/200], Validation Loss: 0.0640
+Epoch [84/200], Average Training Loss: 0.0201
+Epoch [84/200], Validation Loss: 0.0648
+Epoch [85/200], Average Training Loss: 0.0191
+Epoch [85/200], Validation Loss: 0.0632
+Epoch [86/200], Average Training Loss: 0.0177
+Epoch [86/200], Validation Loss: 0.0619
+Epoch [87/200], Average Training Loss: 0.0177
+Epoch [87/200], Validation Loss: 0.0614
+Epoch [88/200], Average Training Loss: 0.0181
+Epoch [88/200], Validation Loss: 0.0640
+Epoch [89/200], Average Training Loss: 0.0183
+Epoch [89/200], Validation Loss: 0.0636
+Epoch [90/200], Average Training Loss: 0.0194
+Epoch [90/200], Validation Loss: 0.0644
+Epoch [91/200], Average Training Loss: 0.0194
+Epoch [91/200], Validation Loss: 0.0598
+Epoch [92/200], Average Training Loss: 0.0187
+Epoch [92/200], Validation Loss: 0.0643
+Epoch [93/200], Average Training Loss: 0.0185
+Epoch [93/200], Validation Loss: 0.0664
+Epoch [94/200], Average Training Loss: 0.0178
+Epoch [94/200], Validation Loss: 0.0644
+Epoch [95/200], Average Training Loss: 0.0173
+Epoch [95/200], Validation Loss: 0.0633
+Epoch [96/200], Average Training Loss: 0.0176
+Epoch [96/200], Validation Loss: 0.0619
+Epoch [97/200], Average Training Loss: 0.0163
+Epoch [97/200], Validation Loss: 0.0609
+Epoch [98/200], Average Training Loss: 0.0160
+Epoch [98/200], Validation Loss: 0.0631
+Epoch [99/200], Average Training Loss: 0.0169
+Epoch [99/200], Validation Loss: 0.0630
+Epoch [100/200], Average Training Loss: 0.0168
+Epoch [100/200], Validation Loss: 0.0598
+Epoch [101/200], Average Training Loss: 0.0159
+Epoch [101/200], Validation Loss: 0.0604
+Epoch [102/200], Average Training Loss: 0.0165
+Epoch [102/200], Validation Loss: 0.0613
+Epoch [103/200], Average Training Loss: 0.0157
+Epoch [103/200], Validation Loss: 0.0608
+Epoch [104/200], Average Training Loss: 0.0152
+Epoch [104/200], Validation Loss: 0.0634
+Epoch [105/200], Average Training Loss: 0.0153
+Epoch [105/200], Validation Loss: 0.0609
+Epoch [106/200], Average Training Loss: 0.0154
+Epoch [106/200], Validation Loss: 0.0625
+Epoch [107/200], Average Training Loss: 0.0159
+Epoch [107/200], Validation Loss: 0.0629
+Epoch [108/200], Average Training Loss: 0.0165
+Epoch [108/200], Validation Loss: 0.0662
+Epoch [109/200], Average Training Loss: 0.0163
+Epoch [109/200], Validation Loss: 0.0615
+Epoch [110/200], Average Training Loss: 0.0159
+Epoch [110/200], Validation Loss: 0.0638
+Epoch [111/200], Average Training Loss: 0.0155
+Epoch [111/200], Validation Loss: 0.0601
+Early stopping at epoch 111
+Finished Training
+Training with batch_size=8 and learning_rate=1e-05
+Epoch [1/200], Average Training Loss: 0.2607
+Epoch [1/200], Validation Loss: 0.2073
+Epoch [2/200], Average Training Loss: 0.2004
+Epoch [2/200], Validation Loss: 0.1698
+Epoch [3/200], Average Training Loss: 0.1810
+Epoch [3/200], Validation Loss: 0.1356
+Epoch [4/200], Average Training Loss: 0.1722
+Epoch [4/200], Validation Loss: 0.1288
+Epoch [5/200], Average Training Loss: 0.1627
+Epoch [5/200], Validation Loss: 0.1295
+Epoch [6/200], Average Training Loss: 0.1572
+Epoch [6/200], Validation Loss: 0.1123
+Epoch [7/200], Average Training Loss: 0.1536
+Epoch [7/200], Validation Loss: 0.1128
+Epoch [8/200], Average Training Loss: 0.1464
+Epoch [8/200], Validation Loss: 0.1130
+Epoch [9/200], Average Training Loss: 0.1474
+Epoch [9/200], Validation Loss: 0.1100
+Epoch [10/200], Average Training Loss: 0.1365
+Epoch [10/200], Validation Loss: 0.1100
+Epoch [11/200], Average Training Loss: 0.1323
+Epoch [11/200], Validation Loss: 0.0994
+Epoch [12/200], Average Training Loss: 0.1288
+Epoch [12/200], Validation Loss: 0.1061
+Epoch [13/200], Average Training Loss: 0.1233
+Epoch [13/200], Validation Loss: 0.1033
+Epoch [14/200], Average Training Loss: 0.1198
+Epoch [14/200], Validation Loss: 0.0905
+Epoch [15/200], Average Training Loss: 0.1165
+Epoch [15/200], Validation Loss: 0.0945
+Epoch [16/200], Average Training Loss: 0.1132
+Epoch [16/200], Validation Loss: 0.0887
+Epoch [17/200], Average Training Loss: 0.1092
+Epoch [17/200], Validation Loss: 0.0887
+Epoch [18/200], Average Training Loss: 0.1026
+Epoch [18/200], Validation Loss: 0.0913
+Epoch [19/200], Average Training Loss: 0.1036
+Epoch [19/200], Validation Loss: 0.0979
+Epoch [20/200], Average Training Loss: 0.1009
+Epoch [20/200], Validation Loss: 0.0929
+Epoch [21/200], Average Training Loss: 0.0979
+Epoch [21/200], Validation Loss: 0.0876
+Epoch [22/200], Average Training Loss: 0.0938
+Epoch [22/200], Validation Loss: 0.0948
+Epoch [23/200], Average Training Loss: 0.0906
+Epoch [23/200], Validation Loss: 0.0900
+Epoch [24/200], Average Training Loss: 0.0896
+Epoch [24/200], Validation Loss: 0.0858
+Epoch [25/200], Average Training Loss: 0.0864
+Epoch [25/200], Validation Loss: 0.0856
+Epoch [26/200], Average Training Loss: 0.0847
+Epoch [26/200], Validation Loss: 0.0963
+Epoch [27/200], Average Training Loss: 0.0841
+Epoch [27/200], Validation Loss: 0.0912
+Epoch [28/200], Average Training Loss: 0.0829
+Epoch [28/200], Validation Loss: 0.0832
+Epoch [29/200], Average Training Loss: 0.0802
+Epoch [29/200], Validation Loss: 0.0813
+Epoch [30/200], Average Training Loss: 0.0770
+Epoch [30/200], Validation Loss: 0.0828
+Epoch [31/200], Average Training Loss: 0.0759
+Epoch [31/200], Validation Loss: 0.0930
+Epoch [32/200], Average Training Loss: 0.0755
+Epoch [32/200], Validation Loss: 0.0915
+Epoch [33/200], Average Training Loss: 0.0729
+Epoch [33/200], Validation Loss: 0.0817
+Epoch [34/200], Average Training Loss: 0.0714
+Epoch [34/200], Validation Loss: 0.0812
+Epoch [35/200], Average Training Loss: 0.0720
+Epoch [35/200], Validation Loss: 0.0831
+Epoch [36/200], Average Training Loss: 0.0696
+Epoch [36/200], Validation Loss: 0.0787
+Epoch [37/200], Average Training Loss: 0.0676
+Epoch [37/200], Validation Loss: 0.0855
+Epoch [38/200], Average Training Loss: 0.0666
+Epoch [38/200], Validation Loss: 0.0822
+Epoch [39/200], Average Training Loss: 0.0670
+Epoch [39/200], Validation Loss: 0.0817
+Epoch [40/200], Average Training Loss: 0.0643
+Epoch [40/200], Validation Loss: 0.0810
+Epoch [41/200], Average Training Loss: 0.0629
+Epoch [41/200], Validation Loss: 0.0775
+Epoch [42/200], Average Training Loss: 0.0612
+Epoch [42/200], Validation Loss: 0.0755
+Epoch [43/200], Average Training Loss: 0.0602
+Epoch [43/200], Validation Loss: 0.0756
+Epoch [44/200], Average Training Loss: 0.0603
+Epoch [44/200], Validation Loss: 0.0770
+Epoch [45/200], Average Training Loss: 0.0582
+Epoch [45/200], Validation Loss: 0.0810
+Epoch [46/200], Average Training Loss: 0.0569
+Epoch [46/200], Validation Loss: 0.0809
+Epoch [47/200], Average Training Loss: 0.0573
+Epoch [47/200], Validation Loss: 0.0800
+Epoch [48/200], Average Training Loss: 0.0548
+Epoch [48/200], Validation Loss: 0.0781
+Epoch [49/200], Average Training Loss: 0.0549
+Epoch [49/200], Validation Loss: 0.0807
+Epoch [50/200], Average Training Loss: 0.0535
+Epoch [50/200], Validation Loss: 0.0849
+Epoch [51/200], Average Training Loss: 0.0531
+Epoch [51/200], Validation Loss: 0.0832
+Epoch [52/200], Average Training Loss: 0.0527
+Epoch [52/200], Validation Loss: 0.0813
+Epoch [53/200], Average Training Loss: 0.0507
+Epoch [53/200], Validation Loss: 0.0757
+Epoch [54/200], Average Training Loss: 0.0497
+Epoch [54/200], Validation Loss: 0.0750
+Epoch [55/200], Average Training Loss: 0.0495
+Epoch [55/200], Validation Loss: 0.0814
+Epoch [56/200], Average Training Loss: 0.0467
+Epoch [56/200], Validation Loss: 0.0767
+Epoch [57/200], Average Training Loss: 0.0475
+Epoch [57/200], Validation Loss: 0.0728
+Epoch [58/200], Average Training Loss: 0.0475
+Epoch [58/200], Validation Loss: 0.0887
+Epoch [59/200], Average Training Loss: 0.0457
+Epoch [59/200], Validation Loss: 0.0787
+Epoch [60/200], Average Training Loss: 0.0444
+Epoch [60/200], Validation Loss: 0.0807
+Epoch [61/200], Average Training Loss: 0.0433
+Epoch [61/200], Validation Loss: 0.0787
+Epoch [62/200], Average Training Loss: 0.0435
+Epoch [62/200], Validation Loss: 0.0721
+Epoch [63/200], Average Training Loss: 0.0422
+Epoch [63/200], Validation Loss: 0.0744
+Epoch [64/200], Average Training Loss: 0.0417
+Epoch [64/200], Validation Loss: 0.0787
+Epoch [65/200], Average Training Loss: 0.0415
+Epoch [65/200], Validation Loss: 0.0753
+Epoch [66/200], Average Training Loss: 0.0426
+Epoch [66/200], Validation Loss: 0.0811
+Epoch [67/200], Average Training Loss: 0.0389
+Epoch [67/200], Validation Loss: 0.0777
+Epoch [68/200], Average Training Loss: 0.0400
+Epoch [68/200], Validation Loss: 0.0742
+Epoch [69/200], Average Training Loss: 0.0382
+Epoch [69/200], Validation Loss: 0.0758
+Epoch [70/200], Average Training Loss: 0.0387
+Epoch [70/200], Validation Loss: 0.0733
+Epoch [71/200], Average Training Loss: 0.0375
+Epoch [71/200], Validation Loss: 0.0735
+Epoch [72/200], Average Training Loss: 0.0365
+Epoch [72/200], Validation Loss: 0.0738
+Epoch [73/200], Average Training Loss: 0.0356
+Epoch [73/200], Validation Loss: 0.0769
+Epoch [74/200], Average Training Loss: 0.0372
+Epoch [74/200], Validation Loss: 0.0732
+Epoch [75/200], Average Training Loss: 0.0346
+Epoch [75/200], Validation Loss: 0.0741
+Epoch [76/200], Average Training Loss: 0.0345
+Epoch [76/200], Validation Loss: 0.0715
+Epoch [77/200], Average Training Loss: 0.0353
+Epoch [77/200], Validation Loss: 0.0723
+Epoch [78/200], Average Training Loss: 0.0341
+Epoch [78/200], Validation Loss: 0.0736
+Epoch [79/200], Average Training Loss: 0.0336
+Epoch [79/200], Validation Loss: 0.0730
+Epoch [80/200], Average Training Loss: 0.0331
+Epoch [80/200], Validation Loss: 0.0774
+Epoch [81/200], Average Training Loss: 0.0321
+Epoch [81/200], Validation Loss: 0.0737
+Epoch [82/200], Average Training Loss: 0.0315
+Epoch [82/200], Validation Loss: 0.0722
+Epoch [83/200], Average Training Loss: 0.0314
+Epoch [83/200], Validation Loss: 0.0710
+Epoch [84/200], Average Training Loss: 0.0311
+Epoch [84/200], Validation Loss: 0.0715
+Epoch [85/200], Average Training Loss: 0.0310
+Epoch [85/200], Validation Loss: 0.0707
+Epoch [86/200], Average Training Loss: 0.0316
+Epoch [86/200], Validation Loss: 0.0735
+Epoch [87/200], Average Training Loss: 0.0303
+Epoch [87/200], Validation Loss: 0.0731
+Epoch [88/200], Average Training Loss: 0.0299
+Epoch [88/200], Validation Loss: 0.0726
+Epoch [89/200], Average Training Loss: 0.0292
+Epoch [89/200], Validation Loss: 0.0729
+Epoch [90/200], Average Training Loss: 0.0291
+Epoch [90/200], Validation Loss: 0.0669
+Epoch [91/200], Average Training Loss: 0.0297
+Epoch [91/200], Validation Loss: 0.0716
+Epoch [92/200], Average Training Loss: 0.0288
+Epoch [92/200], Validation Loss: 0.0686
+Epoch [93/200], Average Training Loss: 0.0280
+Epoch [93/200], Validation Loss: 0.0699
+Epoch [94/200], Average Training Loss: 0.0283
+Epoch [94/200], Validation Loss: 0.0714
+Epoch [95/200], Average Training Loss: 0.0275
+Epoch [95/200], Validation Loss: 0.0708
+Epoch [96/200], Average Training Loss: 0.0272
+Epoch [96/200], Validation Loss: 0.0670
+Epoch [97/200], Average Training Loss: 0.0267
+Epoch [97/200], Validation Loss: 0.0683
+Epoch [98/200], Average Training Loss: 0.0273
+Epoch [98/200], Validation Loss: 0.0679
+Epoch [99/200], Average Training Loss: 0.0260
+Epoch [99/200], Validation Loss: 0.0687
+Epoch [100/200], Average Training Loss: 0.0269
+Epoch [100/200], Validation Loss: 0.0715
+Epoch [101/200], Average Training Loss: 0.0253
+Epoch [101/200], Validation Loss: 0.0719
+Epoch [102/200], Average Training Loss: 0.0254
+Epoch [102/200], Validation Loss: 0.0699
+Epoch [103/200], Average Training Loss: 0.0252
+Epoch [103/200], Validation Loss: 0.0688
+Epoch [104/200], Average Training Loss: 0.0246
+Epoch [104/200], Validation Loss: 0.0670
+Epoch [105/200], Average Training Loss: 0.0244
+Epoch [105/200], Validation Loss: 0.0688
+Epoch [106/200], Average Training Loss: 0.0249
+Epoch [106/200], Validation Loss: 0.0663
+Epoch [107/200], Average Training Loss: 0.0243
+Epoch [107/200], Validation Loss: 0.0699
+Epoch [108/200], Average Training Loss: 0.0248
+Epoch [108/200], Validation Loss: 0.0653
+Epoch [109/200], Average Training Loss: 0.0234
+Epoch [109/200], Validation Loss: 0.0672
+Epoch [110/200], Average Training Loss: 0.0239
+Epoch [110/200], Validation Loss: 0.0685
+Epoch [111/200], Average Training Loss: 0.0240
+Epoch [111/200], Validation Loss: 0.0678
+Epoch [112/200], Average Training Loss: 0.0234
+Epoch [112/200], Validation Loss: 0.0665
+Epoch [113/200], Average Training Loss: 0.0226
+Epoch [113/200], Validation Loss: 0.0693
+Epoch [114/200], Average Training Loss: 0.0223
+Epoch [114/200], Validation Loss: 0.0689
+Epoch [115/200], Average Training Loss: 0.0228
+Epoch [115/200], Validation Loss: 0.0674
+Epoch [116/200], Average Training Loss: 0.0225
+Epoch [116/200], Validation Loss: 0.0669
+Epoch [117/200], Average Training Loss: 0.0226
+Epoch [117/200], Validation Loss: 0.0657
+Epoch [118/200], Average Training Loss: 0.0214
+Epoch [118/200], Validation Loss: 0.0656
+Epoch [119/200], Average Training Loss: 0.0216
+Epoch [119/200], Validation Loss: 0.0684
+Epoch [120/200], Average Training Loss: 0.0213
+Epoch [120/200], Validation Loss: 0.0679
+Epoch [121/200], Average Training Loss: 0.0211
+Epoch [121/200], Validation Loss: 0.0644
+Epoch [122/200], Average Training Loss: 0.0205
+Epoch [122/200], Validation Loss: 0.0640
+Epoch [123/200], Average Training Loss: 0.0204
+Epoch [123/200], Validation Loss: 0.0672
+Epoch [124/200], Average Training Loss: 0.0205
+Epoch [124/200], Validation Loss: 0.0673
+Epoch [125/200], Average Training Loss: 0.0202
+Epoch [125/200], Validation Loss: 0.0637
+Epoch [126/200], Average Training Loss: 0.0197
+Epoch [126/200], Validation Loss: 0.0641
+Epoch [127/200], Average Training Loss: 0.0197
+Epoch [127/200], Validation Loss: 0.0659
+Epoch [128/200], Average Training Loss: 0.0198
+Epoch [128/200], Validation Loss: 0.0671
+Epoch [129/200], Average Training Loss: 0.0206
+Epoch [129/200], Validation Loss: 0.0659
+Epoch [130/200], Average Training Loss: 0.0196
+Epoch [130/200], Validation Loss: 0.0639
+Epoch [131/200], Average Training Loss: 0.0190
+Epoch [131/200], Validation Loss: 0.0684
+Epoch [132/200], Average Training Loss: 0.0192
+Epoch [132/200], Validation Loss: 0.0646
+Epoch [133/200], Average Training Loss: 0.0191
+Epoch [133/200], Validation Loss: 0.0679
+Epoch [134/200], Average Training Loss: 0.0188
+Epoch [134/200], Validation Loss: 0.0654
+Epoch [135/200], Average Training Loss: 0.0186
+Epoch [135/200], Validation Loss: 0.0669
+Epoch [136/200], Average Training Loss: 0.0181
+Epoch [136/200], Validation Loss: 0.0659
+Epoch [137/200], Average Training Loss: 0.0187
+Epoch [137/200], Validation Loss: 0.0649
+Epoch [138/200], Average Training Loss: 0.0177
+Epoch [138/200], Validation Loss: 0.0646
+Epoch [139/200], Average Training Loss: 0.0187
+Epoch [139/200], Validation Loss: 0.0614
+Epoch [140/200], Average Training Loss: 0.0188
+Epoch [140/200], Validation Loss: 0.0639
+Epoch [141/200], Average Training Loss: 0.0181
+Epoch [141/200], Validation Loss: 0.0627
+Epoch [142/200], Average Training Loss: 0.0178
+Epoch [142/200], Validation Loss: 0.0643
+Epoch [143/200], Average Training Loss: 0.0174
+Epoch [143/200], Validation Loss: 0.0647
+Epoch [144/200], Average Training Loss: 0.0169
+Epoch [144/200], Validation Loss: 0.0625
+Epoch [145/200], Average Training Loss: 0.0173
+Epoch [145/200], Validation Loss: 0.0668
+Epoch [146/200], Average Training Loss: 0.0167
+Epoch [146/200], Validation Loss: 0.0639
+Epoch [147/200], Average Training Loss: 0.0170
+Epoch [147/200], Validation Loss: 0.0622
+Epoch [148/200], Average Training Loss: 0.0171
+Epoch [148/200], Validation Loss: 0.0665
+Epoch [149/200], Average Training Loss: 0.0170
+Epoch [149/200], Validation Loss: 0.0627
+Epoch [150/200], Average Training Loss: 0.0171
+Epoch [150/200], Validation Loss: 0.0626
+Epoch [151/200], Average Training Loss: 0.0173
+Epoch [151/200], Validation Loss: 0.0636
+Epoch [152/200], Average Training Loss: 0.0167
+Epoch [152/200], Validation Loss: 0.0643
+Epoch [153/200], Average Training Loss: 0.0164
+Epoch [153/200], Validation Loss: 0.0678
+Epoch [154/200], Average Training Loss: 0.0166
+Epoch [154/200], Validation Loss: 0.0628
+Epoch [155/200], Average Training Loss: 0.0161
+Epoch [155/200], Validation Loss: 0.0624
+Epoch [156/200], Average Training Loss: 0.0161
+Epoch [156/200], Validation Loss: 0.0638
+Epoch [157/200], Average Training Loss: 0.0166
+Epoch [157/200], Validation Loss: 0.0629
+Epoch [158/200], Average Training Loss: 0.0159
+Epoch [158/200], Validation Loss: 0.0630
+Epoch [159/200], Average Training Loss: 0.0156
+Epoch [159/200], Validation Loss: 0.0655
+Early stopping at epoch 159
+Finished Training
+Training with batch_size=8 and learning_rate=0.0001
+Epoch [1/200], Average Training Loss: 0.2125
+Epoch [1/200], Validation Loss: 0.1496
+Epoch [2/200], Average Training Loss: 0.1763
+Epoch [2/200], Validation Loss: 0.1450
+Epoch [3/200], Average Training Loss: 0.1638
+Epoch [3/200], Validation Loss: 0.1211
+Epoch [4/200], Average Training Loss: 0.1556
+Epoch [4/200], Validation Loss: 0.1313
+Epoch [5/200], Average Training Loss: 0.1513
+Epoch [5/200], Validation Loss: 0.1018
+Epoch [6/200], Average Training Loss: 0.1468
+Epoch [6/200], Validation Loss: 0.1084
+Epoch [7/200], Average Training Loss: 0.1407
+Epoch [7/200], Validation Loss: 0.1016
+Epoch [8/200], Average Training Loss: 0.1340
+Epoch [8/200], Validation Loss: 0.0930
+Epoch [9/200], Average Training Loss: 0.1251
+Epoch [9/200], Validation Loss: 0.0971
+Epoch [10/200], Average Training Loss: 0.1214
+Epoch [10/200], Validation Loss: 0.0916
+Epoch [11/200], Average Training Loss: 0.1107
+Epoch [11/200], Validation Loss: 0.0991
+Epoch [12/200], Average Training Loss: 0.1059
+Epoch [12/200], Validation Loss: 0.0890
+Epoch [13/200], Average Training Loss: 0.1023
+Epoch [13/200], Validation Loss: 0.0904
+Epoch [14/200], Average Training Loss: 0.0950
+Epoch [14/200], Validation Loss: 0.0789
+Epoch [15/200], Average Training Loss: 0.0868
+Epoch [15/200], Validation Loss: 0.0775
+Epoch [16/200], Average Training Loss: 0.0800
+Epoch [16/200], Validation Loss: 0.0795
+Epoch [17/200], Average Training Loss: 0.0775
+Epoch [17/200], Validation Loss: 0.0889
+Epoch [18/200], Average Training Loss: 0.0725
+Epoch [18/200], Validation Loss: 0.0780
+Epoch [19/200], Average Training Loss: 0.0685
+Epoch [19/200], Validation Loss: 0.0799
+Epoch [20/200], Average Training Loss: 0.0664
+Epoch [20/200], Validation Loss: 0.0733
+Epoch [21/200], Average Training Loss: 0.0603
+Epoch [21/200], Validation Loss: 0.0701
+Epoch [22/200], Average Training Loss: 0.0594
+Epoch [22/200], Validation Loss: 0.0697
+Epoch [23/200], Average Training Loss: 0.0564
+Epoch [23/200], Validation Loss: 0.0748
+Epoch [24/200], Average Training Loss: 0.0538
+Epoch [24/200], Validation Loss: 0.0760
+Epoch [25/200], Average Training Loss: 0.0525
+Epoch [25/200], Validation Loss: 0.0742
+Epoch [26/200], Average Training Loss: 0.0481
+Epoch [26/200], Validation Loss: 0.0681
+Epoch [27/200], Average Training Loss: 0.0452
+Epoch [27/200], Validation Loss: 0.0655
+Epoch [28/200], Average Training Loss: 0.0433
+Epoch [28/200], Validation Loss: 0.0665
+Epoch [29/200], Average Training Loss: 0.0417
+Epoch [29/200], Validation Loss: 0.0639
+Epoch [30/200], Average Training Loss: 0.0397
+Epoch [30/200], Validation Loss: 0.0623
+Epoch [31/200], Average Training Loss: 0.0382
+Epoch [31/200], Validation Loss: 0.0659
+Epoch [32/200], Average Training Loss: 0.0381
+Epoch [32/200], Validation Loss: 0.0623
+Epoch [33/200], Average Training Loss: 0.0352
+Epoch [33/200], Validation Loss: 0.0618
+Epoch [34/200], Average Training Loss: 0.0345
+Epoch [34/200], Validation Loss: 0.0608
+Epoch [35/200], Average Training Loss: 0.0317
+Epoch [35/200], Validation Loss: 0.0658
+Epoch [36/200], Average Training Loss: 0.0308
+Epoch [36/200], Validation Loss: 0.0691
+Epoch [37/200], Average Training Loss: 0.0300
+Epoch [37/200], Validation Loss: 0.0650
+Epoch [38/200], Average Training Loss: 0.0293
+Epoch [38/200], Validation Loss: 0.0600
+Epoch [39/200], Average Training Loss: 0.0271
+Epoch [39/200], Validation Loss: 0.0602
+Epoch [40/200], Average Training Loss: 0.0281
+Epoch [40/200], Validation Loss: 0.0564
+Epoch [41/200], Average Training Loss: 0.0267
+Epoch [41/200], Validation Loss: 0.0578
+Epoch [42/200], Average Training Loss: 0.0249
+Epoch [42/200], Validation Loss: 0.0584
+Epoch [43/200], Average Training Loss: 0.0252
+Epoch [43/200], Validation Loss: 0.0616
+Epoch [44/200], Average Training Loss: 0.0242
+Epoch [44/200], Validation Loss: 0.0583
+Epoch [45/200], Average Training Loss: 0.0252
+Epoch [45/200], Validation Loss: 0.0630
+Epoch [46/200], Average Training Loss: 0.0226
+Epoch [46/200], Validation Loss: 0.0602
+Epoch [47/200], Average Training Loss: 0.0227
+Epoch [47/200], Validation Loss: 0.0586
+Epoch [48/200], Average Training Loss: 0.0220
+Epoch [48/200], Validation Loss: 0.0589
+Epoch [49/200], Average Training Loss: 0.0218
+Epoch [49/200], Validation Loss: 0.0585
+Epoch [50/200], Average Training Loss: 0.0222
+Epoch [50/200], Validation Loss: 0.0571
+Epoch [51/200], Average Training Loss: 0.0208
+Epoch [51/200], Validation Loss: 0.0591
+Epoch [52/200], Average Training Loss: 0.0200
+Epoch [52/200], Validation Loss: 0.0565
+Epoch [53/200], Average Training Loss: 0.0199
+Epoch [53/200], Validation Loss: 0.0557
+Epoch [54/200], Average Training Loss: 0.0185
+Epoch [54/200], Validation Loss: 0.0566
+Epoch [55/200], Average Training Loss: 0.0188
+Epoch [55/200], Validation Loss: 0.0569
+Epoch [56/200], Average Training Loss: 0.0189
+Epoch [56/200], Validation Loss: 0.0532
+Epoch [57/200], Average Training Loss: 0.0187
+Epoch [57/200], Validation Loss: 0.0573
+Epoch [58/200], Average Training Loss: 0.0187
+Epoch [58/200], Validation Loss: 0.0532
+Epoch [59/200], Average Training Loss: 0.0179
+Epoch [59/200], Validation Loss: 0.0544
+Epoch [60/200], Average Training Loss: 0.0169
+Epoch [60/200], Validation Loss: 0.0562
+Epoch [61/200], Average Training Loss: 0.0170
+Epoch [61/200], Validation Loss: 0.0544
+Epoch [62/200], Average Training Loss: 0.0168
+Epoch [62/200], Validation Loss: 0.0542
+Epoch [63/200], Average Training Loss: 0.0168
+Epoch [63/200], Validation Loss: 0.0566
+Epoch [64/200], Average Training Loss: 0.0156
+Epoch [64/200], Validation Loss: 0.0506
+Epoch [65/200], Average Training Loss: 0.0156
+Epoch [65/200], Validation Loss: 0.0534
+Epoch [66/200], Average Training Loss: 0.0160
+Epoch [66/200], Validation Loss: 0.0532
+Epoch [67/200], Average Training Loss: 0.0152
+Epoch [67/200], Validation Loss: 0.0529
+Epoch [68/200], Average Training Loss: 0.0149
+Epoch [68/200], Validation Loss: 0.0524
+Epoch [69/200], Average Training Loss: 0.0149
+Epoch [69/200], Validation Loss: 0.0524
+Epoch [70/200], Average Training Loss: 0.0152
+Epoch [70/200], Validation Loss: 0.0520
+Epoch [71/200], Average Training Loss: 0.0147
+Epoch [71/200], Validation Loss: 0.0520
+Epoch [72/200], Average Training Loss: 0.0144
+Epoch [72/200], Validation Loss: 0.0511
+Epoch [73/200], Average Training Loss: 0.0142
+Epoch [73/200], Validation Loss: 0.0511
+Epoch [74/200], Average Training Loss: 0.0136
+Epoch [74/200], Validation Loss: 0.0525
+Epoch [75/200], Average Training Loss: 0.0134
+Epoch [75/200], Validation Loss: 0.0518
+Epoch [76/200], Average Training Loss: 0.0136
+Epoch [76/200], Validation Loss: 0.0544
+Epoch [77/200], Average Training Loss: 0.0138
+Epoch [77/200], Validation Loss: 0.0503
+Epoch [78/200], Average Training Loss: 0.0139
+Epoch [78/200], Validation Loss: 0.0521
+Epoch [79/200], Average Training Loss: 0.0130
+Epoch [79/200], Validation Loss: 0.0528
+Epoch [80/200], Average Training Loss: 0.0130
+Epoch [80/200], Validation Loss: 0.0561
+Epoch [81/200], Average Training Loss: 0.0127
+Epoch [81/200], Validation Loss: 0.0527
+Epoch [82/200], Average Training Loss: 0.0127
+Epoch [82/200], Validation Loss: 0.0511
+Epoch [83/200], Average Training Loss: 0.0125
+Epoch [83/200], Validation Loss: 0.0486
+Epoch [84/200], Average Training Loss: 0.0123
+Epoch [84/200], Validation Loss: 0.0521
+Epoch [85/200], Average Training Loss: 0.0126
+Epoch [85/200], Validation Loss: 0.0523
+Epoch [86/200], Average Training Loss: 0.0125
+Epoch [86/200], Validation Loss: 0.0499
+Epoch [87/200], Average Training Loss: 0.0124
+Epoch [87/200], Validation Loss: 0.0508
+Epoch [88/200], Average Training Loss: 0.0125
+Epoch [88/200], Validation Loss: 0.0491
+Epoch [89/200], Average Training Loss: 0.0118
+Epoch [89/200], Validation Loss: 0.0491
+Epoch [90/200], Average Training Loss: 0.0116
+Epoch [90/200], Validation Loss: 0.0520
+Epoch [91/200], Average Training Loss: 0.0115
+Epoch [91/200], Validation Loss: 0.0517
+Epoch [92/200], Average Training Loss: 0.0112
+Epoch [92/200], Validation Loss: 0.0486
+Epoch [93/200], Average Training Loss: 0.0111
+Epoch [93/200], Validation Loss: 0.0505
+Epoch [94/200], Average Training Loss: 0.0111
+Epoch [94/200], Validation Loss: 0.0532
+Epoch [95/200], Average Training Loss: 0.0109
+Epoch [95/200], Validation Loss: 0.0508
+Epoch [96/200], Average Training Loss: 0.0112
+Epoch [96/200], Validation Loss: 0.0473
+Epoch [97/200], Average Training Loss: 0.0108
+Epoch [97/200], Validation Loss: 0.0488
+Epoch [98/200], Average Training Loss: 0.0109
+Epoch [98/200], Validation Loss: 0.0540
+Epoch [99/200], Average Training Loss: 0.0108
+Epoch [99/200], Validation Loss: 0.0512
+Epoch [100/200], Average Training Loss: 0.0107
+Epoch [100/200], Validation Loss: 0.0511
+Epoch [101/200], Average Training Loss: 0.0109
+Epoch [101/200], Validation Loss: 0.0514
+Epoch [102/200], Average Training Loss: 0.0105
+Epoch [102/200], Validation Loss: 0.0509
+Epoch [103/200], Average Training Loss: 0.0103
+Epoch [103/200], Validation Loss: 0.0501
+Epoch [104/200], Average Training Loss: 0.0105
+Epoch [104/200], Validation Loss: 0.0485
+Epoch [105/200], Average Training Loss: 0.0103
+Epoch [105/200], Validation Loss: 0.0507
+Epoch [106/200], Average Training Loss: 0.0096
+Epoch [106/200], Validation Loss: 0.0504
+Epoch [107/200], Average Training Loss: 0.0097
+Epoch [107/200], Validation Loss: 0.0502
+Epoch [108/200], Average Training Loss: 0.0101
+Epoch [108/200], Validation Loss: 0.0497
+Epoch [109/200], Average Training Loss: 0.0098
+Epoch [109/200], Validation Loss: 0.0493
+Epoch [110/200], Average Training Loss: 0.0096
+Epoch [110/200], Validation Loss: 0.0494
+Epoch [111/200], Average Training Loss: 0.0091
+Epoch [111/200], Validation Loss: 0.0496
+Epoch [112/200], Average Training Loss: 0.0091
+Epoch [112/200], Validation Loss: 0.0524
+Epoch [113/200], Average Training Loss: 0.0091
+Epoch [113/200], Validation Loss: 0.0495
+Epoch [114/200], Average Training Loss: 0.0090
+Epoch [114/200], Validation Loss: 0.0512
+Epoch [115/200], Average Training Loss: 0.0090
+Epoch [115/200], Validation Loss: 0.0506
+Epoch [116/200], Average Training Loss: 0.0093
+Epoch [116/200], Validation Loss: 0.0501
+Early stopping at epoch 116
+Finished Training
+Training with batch_size=8 and learning_rate=0.001
+Epoch [1/200], Average Training Loss: 0.2204
+Epoch [1/200], Validation Loss: 0.1622
+Epoch [2/200], Average Training Loss: 0.1877
+Epoch [2/200], Validation Loss: 0.1378
+Epoch [3/200], Average Training Loss: 0.1721
+Epoch [3/200], Validation Loss: 0.1315
+Epoch [4/200], Average Training Loss: 0.1654
+Epoch [4/200], Validation Loss: 0.1160
+Epoch [5/200], Average Training Loss: 0.1530
+Epoch [5/200], Validation Loss: 0.1162
+Epoch [6/200], Average Training Loss: 0.1531
+Epoch [6/200], Validation Loss: 0.1228
+Epoch [7/200], Average Training Loss: 0.1475
+Epoch [7/200], Validation Loss: 0.1001
+Epoch [8/200], Average Training Loss: 0.1410
+Epoch [8/200], Validation Loss: 0.1040
+Epoch [9/200], Average Training Loss: 0.1395
+Epoch [9/200], Validation Loss: 0.1011
+Epoch [10/200], Average Training Loss: 0.1370
+Epoch [10/200], Validation Loss: 0.0986
+Epoch [11/200], Average Training Loss: 0.1292
+Epoch [11/200], Validation Loss: 0.0902
+Epoch [12/200], Average Training Loss: 0.1246
+Epoch [12/200], Validation Loss: 0.0980
+Epoch [13/200], Average Training Loss: 0.1221
+Epoch [13/200], Validation Loss: 0.0904
+Epoch [14/200], Average Training Loss: 0.1105
+Epoch [14/200], Validation Loss: 0.0950
+Epoch [15/200], Average Training Loss: 0.1078
+Epoch [15/200], Validation Loss: 0.0915
+Epoch [16/200], Average Training Loss: 0.1007
+Epoch [16/200], Validation Loss: 0.0842
+Epoch [17/200], Average Training Loss: 0.0965
+Epoch [17/200], Validation Loss: 0.0874
+Epoch [18/200], Average Training Loss: 0.0921
+Epoch [18/200], Validation Loss: 0.0913
+Epoch [19/200], Average Training Loss: 0.0877
+Epoch [19/200], Validation Loss: 0.0864
+Epoch [20/200], Average Training Loss: 0.0830
+Epoch [20/200], Validation Loss: 0.0883
+Epoch [21/200], Average Training Loss: 0.0774
+Epoch [21/200], Validation Loss: 0.0811
+Epoch [22/200], Average Training Loss: 0.0738
+Epoch [22/200], Validation Loss: 0.0842
+Epoch [23/200], Average Training Loss: 0.0705
+Epoch [23/200], Validation Loss: 0.0767
+Epoch [24/200], Average Training Loss: 0.0685
+Epoch [24/200], Validation Loss: 0.0783
+Epoch [25/200], Average Training Loss: 0.0690
+Epoch [25/200], Validation Loss: 0.0829
+Epoch [26/200], Average Training Loss: 0.0653
+Epoch [26/200], Validation Loss: 0.0754
+Epoch [27/200], Average Training Loss: 0.0613
+Epoch [27/200], Validation Loss: 0.0779
+Epoch [28/200], Average Training Loss: 0.0598
+Epoch [28/200], Validation Loss: 0.0791
+Epoch [29/200], Average Training Loss: 0.0601
+Epoch [29/200], Validation Loss: 0.0836
+Epoch [30/200], Average Training Loss: 0.0585
+Epoch [30/200], Validation Loss: 0.0742
+Epoch [31/200], Average Training Loss: 0.0531
+Epoch [31/200], Validation Loss: 0.0724
+Epoch [32/200], Average Training Loss: 0.0540
+Epoch [32/200], Validation Loss: 0.0727
+Epoch [33/200], Average Training Loss: 0.0499
+Epoch [33/200], Validation Loss: 0.0755
+Epoch [34/200], Average Training Loss: 0.0511
+Epoch [34/200], Validation Loss: 0.0736
+Epoch [35/200], Average Training Loss: 0.0501
+Epoch [35/200], Validation Loss: 0.0758
+Epoch [36/200], Average Training Loss: 0.0456
+Epoch [36/200], Validation Loss: 0.0762
+Epoch [37/200], Average Training Loss: 0.0447
+Epoch [37/200], Validation Loss: 0.0727
+Epoch [38/200], Average Training Loss: 0.0446
+Epoch [38/200], Validation Loss: 0.0735
+Epoch [39/200], Average Training Loss: 0.0402
+Epoch [39/200], Validation Loss: 0.0677
+Epoch [40/200], Average Training Loss: 0.0417
+Epoch [40/200], Validation Loss: 0.0702
+Epoch [41/200], Average Training Loss: 0.0402
+Epoch [41/200], Validation Loss: 0.0702
+Epoch [42/200], Average Training Loss: 0.0385
+Epoch [42/200], Validation Loss: 0.0701
+Epoch [43/200], Average Training Loss: 0.0372
+Epoch [43/200], Validation Loss: 0.0719
+Epoch [44/200], Average Training Loss: 0.0353
+Epoch [44/200], Validation Loss: 0.0674
+Epoch [45/200], Average Training Loss: 0.0350
+Epoch [45/200], Validation Loss: 0.0697
+Epoch [46/200], Average Training Loss: 0.0345
+Epoch [46/200], Validation Loss: 0.0720
+Epoch [47/200], Average Training Loss: 0.0330
+Epoch [47/200], Validation Loss: 0.0727
+Epoch [48/200], Average Training Loss: 0.0326
+Epoch [48/200], Validation Loss: 0.0702
+Epoch [49/200], Average Training Loss: 0.0320
+Epoch [49/200], Validation Loss: 0.0688
+Epoch [50/200], Average Training Loss: 0.0316
+Epoch [50/200], Validation Loss: 0.0685
+Epoch [51/200], Average Training Loss: 0.0294
+Epoch [51/200], Validation Loss: 0.0675
+Epoch [52/200], Average Training Loss: 0.0305
+Epoch [52/200], Validation Loss: 0.0680
+Epoch [53/200], Average Training Loss: 0.0297
+Epoch [53/200], Validation Loss: 0.0674
+Epoch [54/200], Average Training Loss: 0.0303
+Epoch [54/200], Validation Loss: 0.0683
+Epoch [55/200], Average Training Loss: 0.0289
+Epoch [55/200], Validation Loss: 0.0641
+Epoch [56/200], Average Training Loss: 0.0301
+Epoch [56/200], Validation Loss: 0.0674
+Epoch [57/200], Average Training Loss: 0.0291
+Epoch [57/200], Validation Loss: 0.0696
+Epoch [58/200], Average Training Loss: 0.0283
+Epoch [58/200], Validation Loss: 0.0683
+Epoch [59/200], Average Training Loss: 0.0281
+Epoch [59/200], Validation Loss: 0.0699
+Epoch [60/200], Average Training Loss: 0.0267
+Epoch [60/200], Validation Loss: 0.0648
+Epoch [61/200], Average Training Loss: 0.0253
+Epoch [61/200], Validation Loss: 0.0664
+Epoch [62/200], Average Training Loss: 0.0255
+Epoch [62/200], Validation Loss: 0.0632
+Epoch [63/200], Average Training Loss: 0.0249
+Epoch [63/200], Validation Loss: 0.0660
+Epoch [64/200], Average Training Loss: 0.0250
+Epoch [64/200], Validation Loss: 0.0647
+Epoch [65/200], Average Training Loss: 0.0240
+Epoch [65/200], Validation Loss: 0.0653
+Epoch [66/200], Average Training Loss: 0.0236
+Epoch [66/200], Validation Loss: 0.0654
+Epoch [67/200], Average Training Loss: 0.0236
+Epoch [67/200], Validation Loss: 0.0645
+Epoch [68/200], Average Training Loss: 0.0235
+Epoch [68/200], Validation Loss: 0.0665
+Epoch [69/200], Average Training Loss: 0.0232
+Epoch [69/200], Validation Loss: 0.0637
+Epoch [70/200], Average Training Loss: 0.0231
+Epoch [70/200], Validation Loss: 0.0668
+Epoch [71/200], Average Training Loss: 0.0228
+Epoch [71/200], Validation Loss: 0.0624
+Epoch [72/200], Average Training Loss: 0.0231
+Epoch [72/200], Validation Loss: 0.0655
+Epoch [73/200], Average Training Loss: 0.0228
+Epoch [73/200], Validation Loss: 0.0648
+Epoch [74/200], Average Training Loss: 0.0212
+Epoch [74/200], Validation Loss: 0.0642
+Epoch [75/200], Average Training Loss: 0.0219
+Epoch [75/200], Validation Loss: 0.0616
+Epoch [76/200], Average Training Loss: 0.0215
+Epoch [76/200], Validation Loss: 0.0645
+Epoch [77/200], Average Training Loss: 0.0213
+Epoch [77/200], Validation Loss: 0.0634
+Epoch [78/200], Average Training Loss: 0.0211
+Epoch [78/200], Validation Loss: 0.0620
+Epoch [79/200], Average Training Loss: 0.0212
+Epoch [79/200], Validation Loss: 0.0605
+Epoch [80/200], Average Training Loss: 0.0209
+Epoch [80/200], Validation Loss: 0.0604
+Epoch [81/200], Average Training Loss: 0.0195
+Epoch [81/200], Validation Loss: 0.0641
+Epoch [82/200], Average Training Loss: 0.0198
+Epoch [82/200], Validation Loss: 0.0609
+Epoch [83/200], Average Training Loss: 0.0190
+Epoch [83/200], Validation Loss: 0.0645
+Epoch [84/200], Average Training Loss: 0.0193
+Epoch [84/200], Validation Loss: 0.0635
+Epoch [85/200], Average Training Loss: 0.0191
+Epoch [85/200], Validation Loss: 0.0630
+Epoch [86/200], Average Training Loss: 0.0193
+Epoch [86/200], Validation Loss: 0.0616
+Epoch [87/200], Average Training Loss: 0.0189
+Epoch [87/200], Validation Loss: 0.0612
+Epoch [88/200], Average Training Loss: 0.0182
+Epoch [88/200], Validation Loss: 0.0603
+Epoch [89/200], Average Training Loss: 0.0192
+Epoch [89/200], Validation Loss: 0.0640
+Epoch [90/200], Average Training Loss: 0.0184
+Epoch [90/200], Validation Loss: 0.0591
+Epoch [91/200], Average Training Loss: 0.0174
+Epoch [91/200], Validation Loss: 0.0586
+Epoch [92/200], Average Training Loss: 0.0189
+Epoch [92/200], Validation Loss: 0.0620
+Epoch [93/200], Average Training Loss: 0.0180
+Epoch [93/200], Validation Loss: 0.0614
+Epoch [94/200], Average Training Loss: 0.0183
+Epoch [94/200], Validation Loss: 0.0614
+Epoch [95/200], Average Training Loss: 0.0183
+Epoch [95/200], Validation Loss: 0.0617
+Epoch [96/200], Average Training Loss: 0.0181
+Epoch [96/200], Validation Loss: 0.0597
+Epoch [97/200], Average Training Loss: 0.0173
+Epoch [97/200], Validation Loss: 0.0622
+Epoch [98/200], Average Training Loss: 0.0170
+Epoch [98/200], Validation Loss: 0.0618
+Epoch [99/200], Average Training Loss: 0.0171
+Epoch [99/200], Validation Loss: 0.0619
+Epoch [100/200], Average Training Loss: 0.0169
+Epoch [100/200], Validation Loss: 0.0600
+Epoch [101/200], Average Training Loss: 0.0164
+Epoch [101/200], Validation Loss: 0.0591
+Epoch [102/200], Average Training Loss: 0.0169
+Epoch [102/200], Validation Loss: 0.0606
+Epoch [103/200], Average Training Loss: 0.0165
+Epoch [103/200], Validation Loss: 0.0580
+Epoch [104/200], Average Training Loss: 0.0158
+Epoch [104/200], Validation Loss: 0.0603
+Epoch [105/200], Average Training Loss: 0.0160
+Epoch [105/200], Validation Loss: 0.0590
+Epoch [106/200], Average Training Loss: 0.0160
+Epoch [106/200], Validation Loss: 0.0579
+Epoch [107/200], Average Training Loss: 0.0159
+Epoch [107/200], Validation Loss: 0.0581
+Epoch [108/200], Average Training Loss: 0.0158
+Epoch [108/200], Validation Loss: 0.0572
+Epoch [109/200], Average Training Loss: 0.0161
+Epoch [109/200], Validation Loss: 0.0596
+Epoch [110/200], Average Training Loss: 0.0163
+Epoch [110/200], Validation Loss: 0.0601
+Epoch [111/200], Average Training Loss: 0.0160
+Epoch [111/200], Validation Loss: 0.0589
+Epoch [112/200], Average Training Loss: 0.0155
+Epoch [112/200], Validation Loss: 0.0569
+Epoch [113/200], Average Training Loss: 0.0162
+Epoch [113/200], Validation Loss: 0.0585
+Epoch [114/200], Average Training Loss: 0.0149
+Epoch [114/200], Validation Loss: 0.0554
+Epoch [115/200], Average Training Loss: 0.0147
+Epoch [115/200], Validation Loss: 0.0588
+Epoch [116/200], Average Training Loss: 0.0151
+Epoch [116/200], Validation Loss: 0.0563
+Epoch [117/200], Average Training Loss: 0.0151
+Epoch [117/200], Validation Loss: 0.0579
+Epoch [118/200], Average Training Loss: 0.0154
+Epoch [118/200], Validation Loss: 0.0548
+Epoch [119/200], Average Training Loss: 0.0152
+Epoch [119/200], Validation Loss: 0.0576
+Epoch [120/200], Average Training Loss: 0.0155
+Epoch [120/200], Validation Loss: 0.0609
+Epoch [121/200], Average Training Loss: 0.0144
+Epoch [121/200], Validation Loss: 0.0568
+Epoch [122/200], Average Training Loss: 0.0140
+Epoch [122/200], Validation Loss: 0.0578
+Epoch [123/200], Average Training Loss: 0.0141
+Epoch [123/200], Validation Loss: 0.0551
+Epoch [124/200], Average Training Loss: 0.0137
+Epoch [124/200], Validation Loss: 0.0574
+Epoch [125/200], Average Training Loss: 0.0137
+Epoch [125/200], Validation Loss: 0.0581
+Epoch [126/200], Average Training Loss: 0.0141
+Epoch [126/200], Validation Loss: 0.0574
+Epoch [127/200], Average Training Loss: 0.0140
+Epoch [127/200], Validation Loss: 0.0570
+Epoch [128/200], Average Training Loss: 0.0135
+Epoch [128/200], Validation Loss: 0.0579
+Epoch [129/200], Average Training Loss: 0.0141
+Epoch [129/200], Validation Loss: 0.0583
+Epoch [130/200], Average Training Loss: 0.0138
+Epoch [130/200], Validation Loss: 0.0576
+Epoch [131/200], Average Training Loss: 0.0136
+Epoch [131/200], Validation Loss: 0.0592
+Epoch [132/200], Average Training Loss: 0.0134
+Epoch [132/200], Validation Loss: 0.0578
+Epoch [133/200], Average Training Loss: 0.0130
+Epoch [133/200], Validation Loss: 0.0584
+Epoch [134/200], Average Training Loss: 0.0133
+Epoch [134/200], Validation Loss: 0.0612
+Epoch [135/200], Average Training Loss: 0.0137
+Epoch [135/200], Validation Loss: 0.0565
+Epoch [136/200], Average Training Loss: 0.0132
+Epoch [136/200], Validation Loss: 0.0571
+Epoch [137/200], Average Training Loss: 0.0134
+Epoch [137/200], Validation Loss: 0.0575
+Epoch [138/200], Average Training Loss: 0.0135
+Epoch [138/200], Validation Loss: 0.0565
+Early stopping at epoch 138
+Finished Training
+Best parameters found: {'batch_size': 8, 'learning_rate': 0.0001}
+Epoch [1/200], Average Training Loss: 0.2115
+Epoch [1/200], Validation Loss: 0.1585
+Epoch [2/200], Average Training Loss: 0.1778
+Epoch [2/200], Validation Loss: 0.1309
+Epoch [3/200], Average Training Loss: 0.1658
+Epoch [3/200], Validation Loss: 0.1102
+Epoch [4/200], Average Training Loss: 0.1570
+Epoch [4/200], Validation Loss: 0.1088
+Epoch [5/200], Average Training Loss: 0.1514
+Epoch [5/200], Validation Loss: 0.1110
+Epoch [6/200], Average Training Loss: 0.1435
+Epoch [6/200], Validation Loss: 0.1009
+Epoch [7/200], Average Training Loss: 0.1368
+Epoch [7/200], Validation Loss: 0.0905
+Epoch [8/200], Average Training Loss: 0.1299
+Epoch [8/200], Validation Loss: 0.0981
+Epoch [9/200], Average Training Loss: 0.1242
+Epoch [9/200], Validation Loss: 0.0920
+Epoch [10/200], Average Training Loss: 0.1183
+Epoch [10/200], Validation Loss: 0.1034
+Epoch [11/200], Average Training Loss: 0.1115
+Epoch [11/200], Validation Loss: 0.0805
+Epoch [12/200], Average Training Loss: 0.1061
+Epoch [12/200], Validation Loss: 0.0889
+Epoch [13/200], Average Training Loss: 0.0987
+Epoch [13/200], Validation Loss: 0.0796
+Epoch [14/200], Average Training Loss: 0.0915
+Epoch [14/200], Validation Loss: 0.0939
+Epoch [15/200], Average Training Loss: 0.0868
+Epoch [15/200], Validation Loss: 0.0776
+Epoch [16/200], Average Training Loss: 0.0827
+Epoch [16/200], Validation Loss: 0.0714
+Epoch [17/200], Average Training Loss: 0.0765
+Epoch [17/200], Validation Loss: 0.0756
+Epoch [18/200], Average Training Loss: 0.0718
+Epoch [18/200], Validation Loss: 0.0779
+Epoch [19/200], Average Training Loss: 0.0676
+Epoch [19/200], Validation Loss: 0.0740
+Epoch [20/200], Average Training Loss: 0.0656
+Epoch [20/200], Validation Loss: 0.0740
+Epoch [21/200], Average Training Loss: 0.0637
+Epoch [21/200], Validation Loss: 0.0705
+Epoch [22/200], Average Training Loss: 0.0594
+Epoch [22/200], Validation Loss: 0.0690
+Epoch [23/200], Average Training Loss: 0.0566
+Epoch [23/200], Validation Loss: 0.0683
+Epoch [24/200], Average Training Loss: 0.0530
+Epoch [24/200], Validation Loss: 0.0676
+Epoch [25/200], Average Training Loss: 0.0513
+Epoch [25/200], Validation Loss: 0.0735
+Epoch [26/200], Average Training Loss: 0.0490
+Epoch [26/200], Validation Loss: 0.0701
+Epoch [27/200], Average Training Loss: 0.0462
+Epoch [27/200], Validation Loss: 0.0668
+Epoch [28/200], Average Training Loss: 0.0438
+Epoch [28/200], Validation Loss: 0.0667
+Epoch [29/200], Average Training Loss: 0.0443
+Epoch [29/200], Validation Loss: 0.0677
+Epoch [30/200], Average Training Loss: 0.0409
+Epoch [30/200], Validation Loss: 0.0703
+Epoch [31/200], Average Training Loss: 0.0388
+Epoch [31/200], Validation Loss: 0.0633
+Epoch [32/200], Average Training Loss: 0.0372
+Epoch [32/200], Validation Loss: 0.0604
+Epoch [33/200], Average Training Loss: 0.0383
+Epoch [33/200], Validation Loss: 0.0596
+Epoch [34/200], Average Training Loss: 0.0351
+Epoch [34/200], Validation Loss: 0.0609
+Epoch [35/200], Average Training Loss: 0.0349
+Epoch [35/200], Validation Loss: 0.0683
+Epoch [36/200], Average Training Loss: 0.0322
+Epoch [36/200], Validation Loss: 0.0598
+Epoch [37/200], Average Training Loss: 0.0324
+Epoch [37/200], Validation Loss: 0.0564
+Epoch [38/200], Average Training Loss: 0.0307
+Epoch [38/200], Validation Loss: 0.0591
+Epoch [39/200], Average Training Loss: 0.0291
+Epoch [39/200], Validation Loss: 0.0549
+Epoch [40/200], Average Training Loss: 0.0293
+Epoch [40/200], Validation Loss: 0.0567
+Epoch [41/200], Average Training Loss: 0.0283
+Epoch [41/200], Validation Loss: 0.0607
+Epoch [42/200], Average Training Loss: 0.0264
+Epoch [42/200], Validation Loss: 0.0624
+Epoch [43/200], Average Training Loss: 0.0247
+Epoch [43/200], Validation Loss: 0.0565
+Epoch [44/200], Average Training Loss: 0.0246
+Epoch [44/200], Validation Loss: 0.0563
+Epoch [45/200], Average Training Loss: 0.0239
+Epoch [45/200], Validation Loss: 0.0575
+Epoch [46/200], Average Training Loss: 0.0237
+Epoch [46/200], Validation Loss: 0.0536
+Epoch [47/200], Average Training Loss: 0.0219
+Epoch [47/200], Validation Loss: 0.0531
+Epoch [48/200], Average Training Loss: 0.0221
+Epoch [48/200], Validation Loss: 0.0558
+Epoch [49/200], Average Training Loss: 0.0215
+Epoch [49/200], Validation Loss: 0.0536
+Epoch [50/200], Average Training Loss: 0.0208
+Epoch [50/200], Validation Loss: 0.0544
+Epoch [51/200], Average Training Loss: 0.0205
+Epoch [51/200], Validation Loss: 0.0549
+Epoch [52/200], Average Training Loss: 0.0216
+Epoch [52/200], Validation Loss: 0.0556
+Epoch [53/200], Average Training Loss: 0.0193
+Epoch [53/200], Validation Loss: 0.0546
+Epoch [54/200], Average Training Loss: 0.0189
+Epoch [54/200], Validation Loss: 0.0537
+Epoch [55/200], Average Training Loss: 0.0186
+Epoch [55/200], Validation Loss: 0.0552
+Epoch [56/200], Average Training Loss: 0.0180
+Epoch [56/200], Validation Loss: 0.0532
+Epoch [57/200], Average Training Loss: 0.0186
+Epoch [57/200], Validation Loss: 0.0553
+Epoch [58/200], Average Training Loss: 0.0180
+Epoch [58/200], Validation Loss: 0.0524
+Epoch [59/200], Average Training Loss: 0.0171
+Epoch [59/200], Validation Loss: 0.0529
+Epoch [60/200], Average Training Loss: 0.0167
+Epoch [60/200], Validation Loss: 0.0527
+Epoch [61/200], Average Training Loss: 0.0169
+Epoch [61/200], Validation Loss: 0.0541
+Epoch [62/200], Average Training Loss: 0.0170
+Epoch [62/200], Validation Loss: 0.0522
+Epoch [63/200], Average Training Loss: 0.0162
+Epoch [63/200], Validation Loss: 0.0567
+Epoch [64/200], Average Training Loss: 0.0155
+Epoch [64/200], Validation Loss: 0.0511
+Epoch [65/200], Average Training Loss: 0.0158
+Epoch [65/200], Validation Loss: 0.0546
+Epoch [66/200], Average Training Loss: 0.0160
+Epoch [66/200], Validation Loss: 0.0523
+Epoch [67/200], Average Training Loss: 0.0153
+Epoch [67/200], Validation Loss: 0.0518
+Epoch [68/200], Average Training Loss: 0.0153
+Epoch [68/200], Validation Loss: 0.0486
+Epoch [69/200], Average Training Loss: 0.0154
+Epoch [69/200], Validation Loss: 0.0543
+Epoch [70/200], Average Training Loss: 0.0149
+Epoch [70/200], Validation Loss: 0.0534
+Epoch [71/200], Average Training Loss: 0.0142
+Epoch [71/200], Validation Loss: 0.0514
+Epoch [72/200], Average Training Loss: 0.0142
+Epoch [72/200], Validation Loss: 0.0536
+Epoch [73/200], Average Training Loss: 0.0139
+Epoch [73/200], Validation Loss: 0.0538
+Epoch [74/200], Average Training Loss: 0.0134
+Epoch [74/200], Validation Loss: 0.0518
+Epoch [75/200], Average Training Loss: 0.0132
+Epoch [75/200], Validation Loss: 0.0520
+Epoch [76/200], Average Training Loss: 0.0136
+Epoch [76/200], Validation Loss: 0.0516
+Epoch [77/200], Average Training Loss: 0.0137
+Epoch [77/200], Validation Loss: 0.0532
+Epoch [78/200], Average Training Loss: 0.0133
+Epoch [78/200], Validation Loss: 0.0521
+Epoch [79/200], Average Training Loss: 0.0134
+Epoch [79/200], Validation Loss: 0.0519
+Epoch [80/200], Average Training Loss: 0.0131
+Epoch [80/200], Validation Loss: 0.0480
+Epoch [81/200], Average Training Loss: 0.0127
+Epoch [81/200], Validation Loss: 0.0505
+Epoch [82/200], Average Training Loss: 0.0130
+Epoch [82/200], Validation Loss: 0.0512
+Epoch [83/200], Average Training Loss: 0.0124
+Epoch [83/200], Validation Loss: 0.0512
+Epoch [84/200], Average Training Loss: 0.0124
+Epoch [84/200], Validation Loss: 0.0498
+Epoch [85/200], Average Training Loss: 0.0127
+Epoch [85/200], Validation Loss: 0.0543
+Epoch [86/200], Average Training Loss: 0.0123
+Epoch [86/200], Validation Loss: 0.0507
+Epoch [87/200], Average Training Loss: 0.0121
+Epoch [87/200], Validation Loss: 0.0496
+Epoch [88/200], Average Training Loss: 0.0119
+Epoch [88/200], Validation Loss: 0.0505
+Epoch [89/200], Average Training Loss: 0.0119
+Epoch [89/200], Validation Loss: 0.0505
+Epoch [90/200], Average Training Loss: 0.0119
+Epoch [90/200], Validation Loss: 0.0506
+Epoch [91/200], Average Training Loss: 0.0115
+Epoch [91/200], Validation Loss: 0.0499
+Epoch [92/200], Average Training Loss: 0.0113
+Epoch [92/200], Validation Loss: 0.0513
+Epoch [93/200], Average Training Loss: 0.0113
+Epoch [93/200], Validation Loss: 0.0517
+Epoch [94/200], Average Training Loss: 0.0108
+Epoch [94/200], Validation Loss: 0.0499
+Epoch [95/200], Average Training Loss: 0.0108
+Epoch [95/200], Validation Loss: 0.0510
+Epoch [96/200], Average Training Loss: 0.0110
+Epoch [96/200], Validation Loss: 0.0516
+Epoch [97/200], Average Training Loss: 0.0107
+Epoch [97/200], Validation Loss: 0.0512
+Epoch [98/200], Average Training Loss: 0.0106
+Epoch [98/200], Validation Loss: 0.0513
+Epoch [99/200], Average Training Loss: 0.0107
+Epoch [99/200], Validation Loss: 0.0482
+Epoch [100/200], Average Training Loss: 0.0105
+Epoch [100/200], Validation Loss: 0.0510
+Early stopping at epoch 100
+Finished Training
+Testing best CNN Model:
+Test Loss: 0.0677
+Final Training Loss: 0.0105
+Final Validation Loss: 0.0510
+Test Loss: 0.0677
