@@ -222,6 +222,7 @@ def visualize_comparison(original_directory, fixed_directory, metadata_directory
                     axes[1].set_title(f'Fixed: {file_name}')
                     axes[1].set_xlabel('Longitude')
                     axes[1].set_ylabel('Latitude')
+                    
 
                     # add red point to mark the center of target region
                     axes[1].plot(target_lon, target_lat, 'ro') 
@@ -232,5 +233,5 @@ if __name__ == '__main__':
     input_hdf5_directory = './dataset/pre_processed_dataset/Digital_typhoon/filtered_images_taiwan'
     output_hdf5_directory = './dataset/pre_processed_dataset/Digital_typhoon/fixed_images_taiwan'
     metadata_directory = './dataset/pre_processed_dataset/Digital_typhoon/filtered_metadata_taiwan'
-    process_hdf5_files(input_hdf5_directory, output_hdf5_directory, metadata_directory)
-    # visualize_comparison(input_hdf5_directory, output_hdf5_directory, metadata_directory)
+    # process_hdf5_files(input_hdf5_directory, output_hdf5_directory, metadata_directory)
+    visualize_comparison(input_hdf5_directory, output_hdf5_directory, metadata_directory)
