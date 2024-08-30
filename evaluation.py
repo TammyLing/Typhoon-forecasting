@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
 # 导入模型
-from cnn import CNN
+from CNN.cnn import CNN
 from SENet.senet import SENet
 from DDPM.diffusion import GaussianDiffusion, Unet
 
