@@ -15,7 +15,7 @@ from ema_pytorch import EMA
 from torchvision import transforms as T
 from CDDPM.models.model import Palette
 from CDDPM.models.network import Network
-from CNN.cnn import CNN
+from cnn import CNN
 from SENet.senet import SENet
 from DDPM.diffusion import GaussianDiffusion, Unet
 from CDDPM.core.logger import VisualWriter, InfoLogger
