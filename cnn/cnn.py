@@ -342,7 +342,7 @@ def train_cnn(train_loader, test_loader, model, optimizer, criterion, device, nu
         sys.stdout.flush()
 
     print('Finished Training')
-    torch.save(model.state_dict(), 'cnn_noraml_model.pth')
+    torch.save(model.state_dict(), 'cnn_model.pth')
     sys.stdout.flush()
     
     return train_losses, test_losses
