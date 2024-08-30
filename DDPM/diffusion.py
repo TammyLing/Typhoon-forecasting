@@ -27,7 +27,7 @@ from ema_pytorch import EMA
 from accelerate import Accelerator
 
 import sys
-sys.path.append('/vol/bitbucket/zl1823/Typhoon-forecasting/pyphoon2')
+sys.path.append('/vol/bitbucket/zl1823/Typhoon-forecasting')
 
 from attend import Attend
 import matplotlib.pyplot as plt
