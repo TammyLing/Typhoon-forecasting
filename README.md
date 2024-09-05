@@ -1,7 +1,7 @@
-# Typhoon Forecasting Project
+# Estimating atmospheric variables from Digital Typhoon Satellite Images via Conditional Denoising Diffusion Models
 
 ## Overview
-This project focuses on predicting typhoon patterns using various deep learning models. It involves downloading and processing datasets, selecting typhoons passing through specific regions, aligning different datasets, and training models to forecast typhoon behavior. The project includes training four different models, including DDPM and CDDPM, with some parts of the model architecture adapted from other open-source projects.
+This project focuses on estimating atmospheric variables from Digital Typhoon Satellite Images. It involves downloading and processing datasets, selecting typhoons passing through specific regions, aligning different datasets, and training models to forecast typhoon behavior. The project includes training four different models, including DDPM and CDDPM, with some parts of the model architecture adapted from other open-source projects.
 
 ## Requirements
 To set up the environment and install the necessary dependencies, run the following commands:
